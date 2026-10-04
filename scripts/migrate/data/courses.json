@@ -1,0 +1,56 @@
+[
+  {
+    "_id": "6727e4caebd3f77b9e9c0930",
+    "title": "8eme - informatique - 2024",
+    "description": "Le cours d'informatique pour la 8ème année aborde des thèmes essentiels tels que les dangers d'Internet et les solutions pour naviguer en toute sécurité. Les élèves apprendront à réaliser des montages vidéo, à rédiger des emails professionnels et à gérer leur e-réputation. Ils découvriront aussi le partage de projets et l'utilisation de Scratch pour programmer de manière créative. Ce cours vise à les sensibiliser aux enjeux de la technologie tout en développant leurs compétences numériques.",
+    "sessionIds": [
+      "6727e89c7b7bee46ac166c81",
+      "6727e8e57b7bee46ac166c82",
+      "6727e94a7b7bee46ac166c83",
+      "6727e9a77b7bee46ac166c84",
+      "6727ec4a7b7bee46ac166c89",
+      "673afd221eba4f5eb1d4238e",
+      "677af39e73340362df063b6f",
+      "677e6b350bcf0f70b73fbef3",
+      "67975931fd91b16d92bb74ee",
+      "67975954fd91b16d92bb74ef",
+      "67975977fd91b16d92bb74f0",
+      "67a8c9e32b1c851d32250ffa",
+      "67c4c394eb2b861205f31808"
+    ],
+    "teacher": "6727e3fbebd3f77b9e9c092f",
+    "_class": "com.course.Learning.model.Course"
+  },
+  {
+    "_id": "6729373502650506a9b5e84c",
+    "title": "9eme - informatique - 2024",
+    "description": "ors de notre première séance, nous allons découvrir les objets connectés et l'Internet des objets (IoT). Nous verrons comment ces technologies changent notre vie quotidienne. Nous parlerons aussi de la robotique et de la façon dont les robots fonctionnent. Enfin, nous introduirons App Inventor, un outil pour créer des applications mobiles facilement. Ce sera une première étape passionnante vers la compréhension des nouvelles technologies et la création de projets innovants.",
+    "sessionIds": [
+      "673ba80455ba5254591822e4",
+      "673ba83f55ba5254591822e5",
+      "67438f4309f0523d16956168",
+      "677c393160c2f87589c50126",
+      "677c3f5260c2f87589c50129",
+      "6799d950ad804c490191c16c",
+      "6799d9c3ad804c490191c16d",
+      "6799da01ad804c490191c16e",
+      "67bf3e1dd343c132f27a780d",
+      "67bf3fe9d343c132f27a780f",
+      "67fed9ac039a760ec68bc2c5"
+    ],
+    "teacher": "6727e3fbebd3f77b9e9c092f",
+    "_class": "com.course.Learning.model.Course"
+  },
+  {
+    "_id": "6946b76503cba04ed96e44bf",
+    "title": "bac-info",
+    "description": "sti",
+    "sessionIds": [
+      "69471cc203cba04ed96e44c1",
+      "69471f7b03cba04ed96e44c6",
+      "6947200b03cba04ed96e44c7"
+    ],
+    "teacher": "6727e3fbebd3f77b9e9c092f",
+    "_class": "com.course.Learning.model.Course"
+  }
+]

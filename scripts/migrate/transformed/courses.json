@@ -1,0 +1,52 @@
+[
+  {
+    "id": "139a5a7f-d79e-4fed-b161-d6748fdc5a18",
+    "title": "8eme - informatique - 2024",
+    "description": "Le cours d'informatique pour la 8ème année aborde des thèmes essentiels tels que les dangers d'Internet et les solutions pour naviguer en toute sécurité. Les élèves apprendront à réaliser des montages vidéo, à rédiger des emails professionnels et à gérer leur e-réputation. Ils découvriront aussi le partage de projets et l'utilisation de Scratch pour programmer de manière créative. Ce cours vise à les sensibiliser aux enjeux de la technologie tout en développant leurs compétences numériques.",
+    "className": "Unknown",
+    "teacherId": "fa84c9e7-edd0-4197-80cc-dd195a640021",
+    "createdAt": "2026-10-02T10:35:39.298Z",
+    "updatedAt": "2026-10-02T10:35:39.298Z",
+    "_oldId": "6727e4caebd3f77b9e9c0930"
+  },
+  {
+    "id": "3959a4b3-5293-43b7-a230-294f31a04208",
+    "title": "9eme - informatique - 2024",
+    "description": "ors de notre première séance, nous allons découvrir les objets connectés et l'Internet des objets (IoT). Nous verrons comment ces technologies changent notre vie quotidienne. Nous parlerons aussi de la robotique et de la façon dont les robots fonctionnent. Enfin, nous introduirons App Inventor, un outil pour créer des applications mobiles facilement. Ce sera une première étape passionnante vers la compréhension des nouvelles technologies et la création de projets innovants.",
+    "className": "Unknown",
+    "teacherId": "fa84c9e7-edd0-4197-80cc-dd195a640021",
+    "createdAt": "2026-10-02T10:35:39.298Z",
+    "updatedAt": "2026-10-02T10:35:39.298Z",
+    "_oldId": "6729373502650506a9b5e84c"
+  },
+  {
+    "id": "657a65ce-1cae-4dd5-9372-232dc4dc981f",
+    "title": "bac-info",
+    "description": "sti",
+    "className": "Unknown",
+    "teacherId": "fa84c9e7-edd0-4197-80cc-dd195a640021",
+    "createdAt": "2026-10-02T10:35:39.298Z",
+    "updatedAt": "2026-10-02T10:35:39.298Z",
+    "_oldId": "6946b76503cba04ed96e44bf"
+  },
+  {
+    "id": "69891ab2-aea0-4cd2-9dd4-99e8c9ac591b",
+    "title": "Course 66fdac2f",
+    "description": "Course data not available in migration",
+    "className": "Unknown",
+    "teacherId": "c01b56ee-a148-4509-a857-11f56925e69b",
+    "createdAt": "2026-10-02T10:35:39.301Z",
+    "updatedAt": "2026-10-02T10:35:39.301Z",
+    "_oldId": "66fdac2f1237aa7c60a9b541"
+  },
+  {
+    "id": "67a8f0f3-806c-41a9-a6d6-ead08a99ec7c",
+    "title": "Course 671574aa",
+    "description": "Course data not available in migration",
+    "className": "Unknown",
+    "teacherId": "c01b56ee-a148-4509-a857-11f56925e69b",
+    "createdAt": "2026-10-02T10:35:39.301Z",
+    "updatedAt": "2026-10-02T10:35:39.301Z",
+    "_oldId": "671574aa22078e5fc6d64eb3"
+  }
+]

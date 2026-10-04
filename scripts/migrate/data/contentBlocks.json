@@ -1,0 +1,410 @@
+[
+  {
+    "_id": "6715775422078e5fc6d64eb6",
+    "type": "image",
+    "content": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc9APxkj0xClmrU3PpMZglHQkx446nQPG6lA&s",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "6726933894b68734f3cf30c3",
+    "type": "image",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1730581293/pb8i9fp0r3m9wh857u9m.jpg",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "6727a1c144d1667292c3e432",
+    "type": "image",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1730650547/otoiqodzlii5abtebvbt.pdf",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "6727c61644d1667292c3e433",
+    "type": "pdf",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1730659848/ijsxngqrf0cpcjo6atmy.pdf",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "672bf3376baec6715cba48bd",
+    "type": "image",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1730933555/rvmlbtl9q1ku3wo1ifcc.jpg",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "673bb93bc622566cb6d16804",
+    "type": "pdf",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1731967266/jecggy2jxqdb6eup3hjf.pdf",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "677af51e73340362df063b70",
+    "type": "pdf",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1736111385/zgwrmpsv2olg19lc1m56.pdf",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "677e6b540bcf0f70b73fbef4",
+    "type": "text",
+    "content": "COMMENT PUBLIER UNE VIDÉO YOUTUBE PARFAITEMENT (PC) :",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "69471e6003cba04ed96e44c5",
+    "type": "pdf",
+    "content": "http://res.cloudinary.com/drd41undw/raw/upload/v1766268509/jjrqmhvxemvxzcd0trhm",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "670c31a1424ba13f64ea350f",
+    "type": "text",
+    "content": "this is a title v2",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "670c3210424ba13f64ea3510",
+    "type": "text",
+    "content": "another text",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "672941bb952b1372798a3832",
+    "type": "image",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1730757048/vzs2tohxxtba0egs9t0u.jpg",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "672bf3c46baec6715cba48c0",
+    "type": "image",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1730933697/lfic3loypexj8hc207ji.jpg",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "672c92a6b16eba6bf057e738",
+    "type": "image",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1730974371/hqnqookmswcrzcgdia05.jpg",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "673b07e72a2d0e0c258ec2e1",
+    "type": "video",
+    "content": "https://www.youtube.com/watch?v=CGcF8tLd7ew&ab_channel=AmrYasser",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "6745bf7ed4977418f899b737",
+    "type": "image",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1732624245/sfhdprztwemtqwyybxho.jpg",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "677e6b640bcf0f70b73fbef5",
+    "type": "video",
+    "content": "https://www.youtube.com/watch?v=jwFG_njjKjY",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "6799db8aad804c490191c16f",
+    "type": "pdf",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1738136454/qcc5xp7irrf79cy8ency.pdf",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "67a8ca1c2b1c851d32250ffb",
+    "type": "text",
+    "content": "Lien Padlet pour le partage de votre vidéo : ",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "67c4c55eeb2b861205f31809",
+    "type": "image",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1740948827/ajozn8aatbqzoaotaqvo.png",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "67feda2c039a760ec68bc2c6",
+    "type": "pdf",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1744755238/sa6bfzd2vbw55awl80a9.pdf",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "67279e8144d1667292c3e431",
+    "type": "image",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1730649725/jz5khrbsjwzds3ouj7sl.webp",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "677c4a152c00572194e95525",
+    "type": "video",
+    "content": "https://www.youtube.com/watch?v=pkg2MU6k1es&ab_channel=ADELKASSAH",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "679759a0fd91b16d92bb74f1",
+    "type": "pdf",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1737972123/idvzsmeb3ledzr5gx2wz.pdf",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "67bf41b5d343c132f27a7810",
+    "type": "image",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1740587438/ozgwdz9ooaipcnmxcfmp.jpg",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "67bf41e4d343c132f27a7811",
+    "type": "image",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1740587489/pavb5qr5scvpkwbystfu.jpg",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "67c4c83beb2b861205f3180a",
+    "type": "image",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1740949559/ldt7f9xbglrqeooblas7.png",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "69471cfb03cba04ed96e44c2",
+    "type": "text",
+    "content": "hello",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "69471d2203cba04ed96e44c3",
+    "type": "image",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1766268187/wnq9xceakobl0xso9xxz.png",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "6947201c03cba04ed96e44c8",
+    "type": "text",
+    "content": "Hello",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "6715770822078e5fc6d64eb5",
+    "type": "text",
+    "content": "title",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "6727ebe97b7bee46ac166c88",
+    "type": "video",
+    "content": "https://www.youtube.com/watch?v=ZsnLkw9DZWU&ab_channel=FrancoisTutosetMatosVid%C3%A9os",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "67294161952b1372798a3831",
+    "type": "image",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1730756957/jabm4vl9wfltnorqwymr.jpg",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "672bf37e6baec6715cba48be",
+    "type": "image",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1730933626/bsofeqrxislct43r8vvp.jpg",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "673ba8cd55ba5254591822e7",
+    "type": "video",
+    "content": "https://www.youtube.com/watch?v=bNMlkOLzI_0&t=32s&ab_channel=RobotiqueSite",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "67438f7009f0523d16956169",
+    "type": "pdf",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1732480876/bnr5w0i4ez0imwpw7nfv.pdf",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "67bf3efdd343c132f27a780e",
+    "type": "pdf",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1740586743/vbfb4vojismj2byxpvzt.pdf",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "6727eb8e7b7bee46ac166c87",
+    "type": "text",
+    "content": "Voici quelques mots à définir pour une présentation sur Filmora :\n\nMontage vidéo : Processus d'assemblage et d'édition de séquences vidéo pour créer un produit final cohérent.\n\nInterface : La façon dont un utilisateur interagit avec un logiciel, incluant les menus, les boutons et la disposition générale.\n\nClip : Un extrait vidéo ou audio utilisé dans un projet de montage.\n\nTransition : Effet visuel utilisé pour passer d'un clip à un autre dans une vidéo.\n\nEffets spéciaux : Techniques utilisées pour créer des illusions visuelles qui améliorent l'aspect visuel d'une vidéo.\n\nExportation : Processus de sauvegarde d'un projet finalisé dans un format vidéo spécifique.\n\nBibliothèque de médias : Collection de fichiers audio, vidéos et images disponibles pour être utilisés dans le montage.\n\nRecadrage : Modification de la taille ou de la forme d'un clip vidéo pour se concentrer sur une partie spécifique de l'image.\n\nMusique de fond : Musique ajoutée à une vidéo pour enrichir l'expérience visuelle et auditive.\n\nRéseaux sociaux : Plates-formes en ligne où les utilisateurs partagent des contenus, comme des vidéos, des photos et des messages.",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "67294139952b1372798a3830",
+    "type": "image",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1730756919/ogvnnnsldbsndvs8g9sh.jpg",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "673b07c32a2d0e0c258ec2e0",
+    "type": "text",
+    "content": "https://www.youtube.com/watch?v=CGcF8tLd7ew&ab_channel=AmrYasser",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "673baa3c55ba5254591822e8",
+    "type": "image",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1731963445/hyf5jdh6fq3aswbajqys.png",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "679759befd91b16d92bb74f2",
+    "type": "image",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1737972156/pprk60jlvzlme09n2uqv.png",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "67c4c8a6eb2b861205f3180c",
+    "type": "image",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1740949667/n5itgrtegz2dsbyj4ov3.png",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "69471dcc03cba04ed96e44c4",
+    "type": "video",
+    "content": "https://www.youtube.com/watch?v=PrCqPc7oYY8&list=PLec__-qi5emxxbE8qBnvlnA_Bgc55RuuA",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "6727eb497b7bee46ac166c86",
+    "type": "text",
+    "content": "Caractéristiques principales :\n\n- Interface conviviale : Filmora est simple à naviguer, ce qui facilite l'apprentissage pour les nouveaux utilisateurs.\n- Outils de montage : Il propose des outils pour couper, recadrer et fusionner des clips, ainsi que pour ajouter des transitions et des effets spéciaux.\n- Bibliothèque de médias : Les utilisateurs peuvent accéder à une large sélection de musique, de sons et d'effets visuels pour enrichir leurs projets.\n- Exportation facile : Les vidéos peuvent être exportées dans différents formats et partagées directement sur les réseaux sociaux.",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "6727ec737b7bee46ac166c8a",
+    "type": "pdf",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1730669680/uvwxl9duxhinjaxsfofb.pdf",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "672941e7952b1372798a3833",
+    "type": "image",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1730757091/xv2nmxprkhjk9hmeinoc.jpg",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "673ba88f55ba5254591822e6",
+    "type": "pdf",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1731963006/uqity8lw8xtc1pfkthhc.pdf",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "677e6b8d0bcf0f70b73fbef6",
+    "type": "text",
+    "content": "COMMENT PUBLIER UNE VIDÉO YOUTUBE SUR TÉLÉPHONE :",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "677e6b9b0bcf0f70b73fbef7",
+    "type": "video",
+    "content": "https://www.youtube.com/watch?v=PYJrfdK3iFs",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "67c4c857eb2b861205f3180b",
+    "type": "image",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1740949588/jojalf8ltptn8sfq9jee.png",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "670c32e6424ba13f64ea3511",
+    "type": "image",
+    "content": "https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "670c3320424ba13f64ea3512",
+    "type": "video",
+    "content": "https://www.youtube.com/watch?v=iGxdoV-fKlA",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "6727eb0f7b7bee46ac166c85",
+    "type": "text",
+    "content": "Présentation de Filmora :\n\nFilmora est un logiciel de montage vidéo facile à utiliser, conçu pour les débutants comme pour les utilisateurs plus avancés. Il offre une interface intuitive qui permet de créer des vidéos de manière fluide.",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "6731392c4b9e6e3aab702601",
+    "type": "text",
+    "content": "<button type=\"button\" class=\"btn btn-success fw-bold\" (click)=\"window.open('https://pixabay.com/fr/images/search/malware/', '_blank')\">\n  Cliquez ici pour rechercher et télécharger des images gratuites\n</button>\n",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "673b08692a2d0e0c258ec2e2",
+    "type": "text",
+    "content": "https://pixabay.com/fr/videos/search/malware/",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "677c3de960c2f87589c50127",
+    "type": "pdf",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1736195548/zhyeesjzb6nrveyinfue.pdf",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "677c3e0d60c2f87589c50128",
+    "type": "pdf",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1736195594/sraulfoju8uxltcc0iyn.pdf",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "67a8ca352b1c851d32250ffc",
+    "type": "text",
+    "content": "https://padlet.com/grimmgew/8eme",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "67feda59039a760ec68bc2c7",
+    "type": "video",
+    "content": "https://youtu.be/13-ckdqAC3M?si=UflVj-CD9z7JXtIV",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "6729411a952b1372798a382f",
+    "type": "image",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1730756887/o4jwwrtcv0phg9nv6mao.jpg",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "672bf3ac6baec6715cba48bf",
+    "type": "image",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1730933672/jkoafp02dmkofzcmmz7u.jpg",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "672bf4966baec6715cba48c1",
+    "type": "pdf",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1730933907/e4o7niclhmtxbe3zvo7w.pdf",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "67313f35e147b93c256fae3d",
+    "type": "text",
+    "content": "https://pixabay.com/fr/images/search/malware/",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "677c48ba2c00572194e95524",
+    "type": "pdf",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1736198324/vt6vjgsbk6mp3gq9nyaw.pdf",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "67bf41fdd343c132f27a7812",
+    "type": "image",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1740587514/jwm2qt23ye1wdgodk2ug.jpg",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "67c4ca5feb2b861205f3180d",
+    "type": "image",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1740950108/tcygydzb3cmwkktyqyko.png",
+    "_class": "com.course.Learning.model.ContentBlock"
+  },
+  {
+    "_id": "67c4cb5deb2b861205f3180e",
+    "type": "image",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1740950362/j5j9ezqfcrjkpeqnj3h9.png",
+    "_class": "com.course.Learning.model.ContentBlock"
+  }
+]

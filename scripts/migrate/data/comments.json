@@ -1,0 +1,1930 @@
+[
+  {
+    "_id": "671563acb0eff03317dbf8c3",
+    "sessionId": "670307c53293be7f3376909e",
+    "userId": "670d07632f0e6116663389be",
+    "content": "good good ❤️",
+    "date": "2024-10-20T19:10:20.601Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "671769d289995a2e6d249d1b",
+    "sessionId": "6715757222078e5fc6d64eb4",
+    "userId": "66fc1e02dc3cbc76c3943ea2",
+    "content": "nice ❤️",
+    "date": "2024-10-22T09:01:07.440Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6728944969d14608ff16cb3b",
+    "sessionId": "6727e9a77b7bee46ac166c84",
+    "userId": "6727e3fbebd3f77b9e9c092f",
+    "content": "good video !! thank you❤️👏",
+    "date": "2024-11-04T09:30:48.362Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6728bd9486e88f526fb84b74",
+    "sessionId": "6727e9a77b7bee46ac166c84",
+    "userId": "6728bc8a86e88f526fb84b73",
+    "content": "GOOD GOOD ❤️",
+    "date": "2024-11-04T12:27:00.231Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "672a1e01bb8ea47edcc9ce0d",
+    "sessionId": "672937dd02650506a9b5e84d",
+    "userId": "672a1be9bb8ea47edcc9ce0c",
+    "content": "Sir ! plz give me another example !!",
+    "date": "2024-11-05T13:30:41.295Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "672a76143dc6325392b911a9",
+    "sessionId": "672937dd02650506a9b5e84d",
+    "userId": "672a74c73dc6325392b911a8",
+    "content": "Sir Can you give me another exemple of this lesson please ",
+    "date": "2024-11-05T19:46:26.977Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "672b1c20989b550cf6fb0373",
+    "sessionId": "6729399302650506a9b5e850",
+    "userId": "672b19b8989b550cf6fb0372",
+    "content": "good !",
+    "date": "2024-11-06T07:34:57.120Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "672bac36217a340db8300c22",
+    "sessionId": "672937dd02650506a9b5e84d",
+    "userId": "672baba8217a340db8300c21",
+    "content": "Thanks\n",
+    "date": "2024-11-06T17:49:41.312Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "672e214779ae80701b8b8948",
+    "sessionId": "6727e8e57b7bee46ac166c82",
+    "userId": "672e1e7079ae80701b8b8946",
+    "content": "Thank you",
+    "date": "2024-11-08T14:33:41.877Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "67310ed8b8f4b976443f8f13",
+    "sessionId": "6729391402650506a9b5e84f",
+    "userId": "67310555b8f4b976443f8f10",
+    "content": "C'était bien monsieur mais relisez votre cours vous avez oublié quelques lettres merci ",
+    "date": "2024-11-10T19:51:44.720Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6731b537ce53925d119ee285",
+    "sessionId": "6727e581ebd3f77b9e9c0931",
+    "userId": "6731b482ce53925d119ee281",
+    "content": "thank you",
+    "date": "2024-11-11T07:41:42.822Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6731bd4c8455093be45b4c8c",
+    "sessionId": "6727e89c7b7bee46ac166c81",
+    "userId": "6728f458adcc2052fad7c055",
+    "content": "hi",
+    "date": "2024-11-11T08:16:11.872Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "67339fb34fc43c1f7190669e",
+    "sessionId": "6727e9a77b7bee46ac166c84",
+    "userId": "6731b3a9ce53925d119ee27d",
+    "content": "Thanks 😍🥰",
+    "date": "2024-11-12T18:34:26.895Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6733bc17d3385855f39d58bc",
+    "sessionId": "6727e89c7b7bee46ac166c81",
+    "userId": "672bb6d4217a340db8300c25",
+    "content": "👍👍👍",
+    "date": "2024-11-12T20:35:33.532Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6733bc4fd3385855f39d58bd",
+    "sessionId": "6727ec4a7b7bee46ac166c89",
+    "userId": "672bb6d4217a340db8300c25",
+    "content": "👍👍👍",
+    "date": "2024-11-12T20:36:29.093Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6734ff213adae738e5bbe1d9",
+    "sessionId": "6727e9a77b7bee46ac166c84",
+    "userId": "6734fb6d3adae738e5bbe1d8",
+    "content": "❤️",
+    "date": "2024-11-13T19:33:52.675Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "673cfd976257d84f3b051e10",
+    "sessionId": "6727e9a77b7bee46ac166c84",
+    "userId": "673cfd556257d84f3b051e0f",
+    "content": "❤️👏",
+    "date": "2024-11-19T21:05:22.552Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "673da0c3a852ec7404044920",
+    "sessionId": "673afd221eba4f5eb1d4238e",
+    "userId": "672bb6d4217a340db8300c25",
+    "content": "good😊👏❤️❤️❤️❤️",
+    "date": "2024-11-20T07:42:39.587Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "673e1e6a5eef5f2b3eed0932",
+    "sessionId": "673afd221eba4f5eb1d4238e",
+    "userId": "673e1cdc5eef5f2b3eed0931",
+    "content": "Thank you 😍❤️❤️❤️",
+    "date": "2024-11-20T17:37:30.493Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "67840b83a9360c46beac544f",
+    "sessionId": "677e6b350bcf0f70b73fbef3",
+    "userId": "6728f111adcc2052fad7c054",
+    "content": "Merci pour le video👍🌹",
+    "date": "2025-01-12T18:35:45.668Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "678d0ce701d96a351bf3a046",
+    "sessionId": "677e6b350bcf0f70b73fbef3",
+    "userId": "6783fb442d5fef5ec9b050eb",
+    "content": "Merci ",
+    "date": "2025-01-19T14:32:06.598Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "678fddedb6c3ce659aed8094",
+    "sessionId": "677e6b350bcf0f70b73fbef3",
+    "userId": "6731fb6fa075f233631f25a0",
+    "content": "👍😊 merci \n",
+    "date": "2025-01-21T17:48:28.728Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "679f991dd132a11f26fe132d",
+    "sessionId": "67975977fd91b16d92bb74f0",
+    "userId": "672b9f110eb0212c3904a280",
+    "content": "Good sir 😊❤️",
+    "date": "2025-02-02T16:11:09.129Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "67a886f913f31d2f4c980ca7",
+    "sessionId": "67975977fd91b16d92bb74f0",
+    "userId": "678d06ae01d96a351bf3a043",
+    "content": "seddik hassine  \n\nBonjour, Professeur Muhammad Amin Al-Marzouqi. Vous avez bénéficié de ces précieuses informations, merci.\n😊❤️❤️",
+    "date": "2025-02-09T10:44:06.952Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6728c9b46ee066645b83c41a",
+    "sessionId": "6727e9a77b7bee46ac166c84",
+    "userId": "6728c87c6ee066645b83c416",
+    "content": "thank you ! i love this course !! good bye ❤️",
+    "date": "2024-11-04T13:18:44.864Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "672918d3808de505250a4f3e",
+    "sessionId": "6727e581ebd3f77b9e9c0931",
+    "userId": "67291850808de505250a4f3d",
+    "content": "❤️❤️❤️❤️",
+    "date": "2024-11-04T18:56:18.160Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "672a1004622a0c7730f7465c",
+    "sessionId": "672937dd02650506a9b5e84d",
+    "userId": "672a0dd9622a0c7730f7465b",
+    "content": "good good ❤️",
+    "date": "2024-11-05T12:31:01.594Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "672a73133dc6325392b911a7",
+    "sessionId": "6727e9a77b7bee46ac166c84",
+    "userId": "672a71983dc6325392b911a5",
+    "content": "Thank you so match it is a beautiful and great course❤️❤️😊👍",
+    "date": "2024-11-05T19:33:37.919Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "672ca1d28b94e145ed45c330",
+    "sessionId": "6729399302650506a9b5e850",
+    "userId": "672ca1778b94e145ed45c32f",
+    "content": "good👍❤️",
+    "date": "2024-11-07T11:17:36.802Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "672ced9c34480d663befb56f",
+    "sessionId": "6729388602650506a9b5e84e",
+    "userId": "672cec5634480d663befb56d",
+    "content": "🎉👏❤️😊",
+    "date": "2024-11-07T16:40:57.926Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "672e4fe5b9ff763087c93f0e",
+    "sessionId": "6729388602650506a9b5e84e",
+    "userId": "672e4c6db9ff763087c93f0b",
+    "content": "good❤️💙",
+    "date": "2024-11-08T17:52:37.081Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "67310bd5b8f4b976443f8f12",
+    "sessionId": "6729388602650506a9b5e84e",
+    "userId": "67310555b8f4b976443f8f10",
+    "content": "Merci c'était instructif j'ai bien compris le cours 😁😏",
+    "date": "2024-11-10T19:38:59.548Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "67323f01777f575b49f61ade",
+    "sessionId": "6727e9a77b7bee46ac166c84",
+    "userId": "67323e79777f575b49f61adb",
+    "content": "Tankyou ❤️",
+    "date": "2024-11-11T17:29:33.900Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "673396fa4fc43c1f71906698",
+    "sessionId": "672939e002650506a9b5e851",
+    "userId": "67336ebef1daba607d3aab76",
+    "content": "👍👍",
+    "date": "2024-11-12T17:57:22.219Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "67349a557a77506bda574696",
+    "sessionId": "6727ec4a7b7bee46ac166c89",
+    "userId": "672bb6d4217a340db8300c25",
+    "content": "👍👍🎉👏❤️😊😊😊😊😊",
+    "date": "2024-11-13T12:23:48.616Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6735ddf9bfa33a0315b5485c",
+    "sessionId": "6727ec4a7b7bee46ac166c89",
+    "userId": "6735dce4bfa33a0315b5485a",
+    "content": "👏👏👏👍😊😊❤️❤️",
+    "date": "2024-11-14T10:24:44.317Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "67377176e632b220d5aa3113",
+    "sessionId": "6727e581ebd3f77b9e9c0931",
+    "userId": "67376978e632b220d5aa3111",
+    "content": "👍👍😊❤️❤️GOOD GOOD",
+    "date": "2024-11-15T16:06:11.360Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "673a2d0628394b5516dfdc56",
+    "sessionId": "6727e581ebd3f77b9e9c0931",
+    "userId": "673a2ca328394b5516dfdc55",
+    "content": "merci bcp❤️❤️",
+    "date": "2024-11-17T17:51:08.785Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6789443d93b002103ae98c22",
+    "sessionId": "677c3f5260c2f87589c50129",
+    "userId": "67345350940ee45911d88888",
+    "content": "Merci 😊",
+    "date": "2025-01-16T17:39:09.219Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "678d0c5801d96a351bf3a045",
+    "sessionId": "677e6b350bcf0f70b73fbef3",
+    "userId": "678d06ae01d96a351bf3a043",
+    "content": "❤️❤️",
+    "date": "2025-01-19T14:29:42.319Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "678d4afd5e037f70cf214d6d",
+    "sessionId": "677e6b350bcf0f70b73fbef3",
+    "userId": "678d4a595e037f70cf214d6c",
+    "content": "Merci ❤️",
+    "date": "2025-01-19T18:57:00.450Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "679500740a578972bba60a34",
+    "sessionId": "677e6b350bcf0f70b73fbef3",
+    "userId": "67322296734710144a0c38df",
+    "content": "👏👏",
+    "date": "2025-01-25T15:17:05.634Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6797baaa2641cf7bdaa9396a",
+    "sessionId": "67975977fd91b16d92bb74f0",
+    "userId": "6797b4edfa311e6a3b936420",
+    "content": "Thank you 💯🎉",
+    "date": "2025-01-27T16:56:06.206Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "679870d0266c2d10445495e5",
+    "sessionId": "67975977fd91b16d92bb74f0",
+    "userId": "6728f458adcc2052fad7c055",
+    "content": "😊😊👍",
+    "date": "2025-01-28T05:53:10.759Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "67991a5c037ae216383c5e2c",
+    "sessionId": "67975977fd91b16d92bb74f0",
+    "userId": "67991a08037ae216383c5e2b",
+    "content": "Very good\n",
+    "date": "2025-01-28T17:56:41.009Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "679ba0322e22f55b0c81d44a",
+    "sessionId": "67975977fd91b16d92bb74f0",
+    "userId": "6731b3a9ce53925d119ee27d",
+    "content": "Thank you ☺️☺️😍👍",
+    "date": "2025-01-30T15:52:17.430Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "679ba1152e22f55b0c81d44c",
+    "sessionId": "67975931fd91b16d92bb74ee",
+    "userId": "6731b3a9ce53925d119ee27d",
+    "content": "❤️❤️",
+    "date": "2025-01-30T15:56:05.085Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "67c45f0d0d9c581739457a08",
+    "sessionId": "67975954fd91b16d92bb74ef",
+    "userId": "67c45d860d9c581739457a07",
+    "content": "❤️❤️",
+    "date": "2025-03-02T13:37:15.488Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "67c6e2c11e53544daff2bb50",
+    "sessionId": "67bf3fe9d343c132f27a780f",
+    "userId": "67c6e2691e53544daff2bb4f",
+    "content": "Good 🔥",
+    "date": "2025-03-04T11:23:44.121Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6817b16d0e4fe66190c1a377",
+    "sessionId": "67c4c394eb2b861205f31808",
+    "userId": "6817b0b50e4fe66190c1a376",
+    "content": "Thank you sir it's a Amazing lesson❤️❤️❤️❤️❤️❤️❤️😊😊👏👏👏🎉🎉🎉👍👍👍",
+    "date": "2025-05-04T18:26:52.422Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "68f91d1e4d99e1268f70bad6",
+    "sessionId": "6729399302650506a9b5e850",
+    "userId": "68f91c7a4d99e1268f70bad5",
+    "content": "good❤️👏😊",
+    "date": "2025-10-22T18:06:23.781Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "690b9f6a5276617d697e2a70",
+    "sessionId": "67fed9ac039a760ec68bc2c5",
+    "userId": "690b9eda5276617d697e2a6f",
+    "content": "Slm😊",
+    "date": "2025-11-05T19:03:05.148Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "690ba0165276617d697e2a72",
+    "sessionId": "672937dd02650506a9b5e84d",
+    "userId": "690b9eda5276617d697e2a6f",
+    "content": "❤️",
+    "date": "2025-11-05T19:05:57.529Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "69138ea72365971e5df0b8fe",
+    "sessionId": "672939e002650506a9b5e851",
+    "userId": "69138d892365971e5df0b8fd",
+    "content": "❤️",
+    "date": "2025-11-11T19:29:41.455Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6914cc7813c53a337f5e797c",
+    "sessionId": "672939e002650506a9b5e851",
+    "userId": "6914c66913c53a337f5e7979",
+    "content": "🤩🤩🤩🤩",
+    "date": "2025-11-12T18:05:43.284Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6728ea2ce374644b81642bc4",
+    "sessionId": "6727e9a77b7bee46ac166c84",
+    "userId": "6728e8f4e374644b81642bc0",
+    "content": "Hello🎉😊😊❤️",
+    "date": "2024-11-04T15:37:15.590Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "67290a9c22ce1118766a84f1",
+    "sessionId": "6727e581ebd3f77b9e9c0931",
+    "userId": "67290a4222ce1118766a84f0",
+    "content": "Thanks 💗😻",
+    "date": "2024-11-04T17:55:39.101Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "672b298229ac843e799b962c",
+    "sessionId": "6729399302650506a9b5e850",
+    "userId": "672b26a929ac843e799b962b",
+    "content": "good explanation ! ❤️",
+    "date": "2024-11-06T08:32:02.331Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "672b44d8edb3d5270b7853eb",
+    "sessionId": "6727e9a77b7bee46ac166c84",
+    "userId": "672b43c1edb3d5270b7853ea",
+    "content": "good course !! niceee 👍❤️",
+    "date": "2024-11-06T10:28:40.594Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "672cf07434480d663befb573",
+    "sessionId": "672939e002650506a9b5e851",
+    "userId": "672cefee34480d663befb572",
+    "content": "Good",
+    "date": "2024-11-07T16:53:07.499Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6731d3688455093be45b4ca5",
+    "sessionId": "6727e8e57b7bee46ac166c82",
+    "userId": "6731cf168455093be45b4c95",
+    "content": "❤️",
+    "date": "2024-11-11T09:50:32.389Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6731fdbea075f233631f25a9",
+    "sessionId": "6727ec4a7b7bee46ac166c89",
+    "userId": "6731fa56a075f233631f2597",
+    "content": "Good ❣️ thank you ❤️",
+    "date": "2024-11-11T12:51:10.146Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "673222df734710144a0c38e0",
+    "sessionId": "6727ec4a7b7bee46ac166c89",
+    "userId": "67322296734710144a0c38df",
+    "content": "👏👏👏Good❤️❤️❤️",
+    "date": "2024-11-11T15:29:33.357Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "67323995777f575b49f61ad6",
+    "sessionId": "6727ec4a7b7bee46ac166c89",
+    "userId": "6728f111adcc2052fad7c054",
+    "content": "Thank you my teacher❤️❤️❤️❤️❤️❤️❤️❤️",
+    "date": "2024-11-11T17:06:26.540Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "67324525777f575b49f61ae0",
+    "sessionId": "6727e94a7b7bee46ac166c83",
+    "userId": "6732448e777f575b49f61adf",
+    "content": "❤️❤️",
+    "date": "2024-11-11T17:55:46.593Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "67334a3608adf923d30cc6bc",
+    "sessionId": "672937dd02650506a9b5e84d",
+    "userId": "67334a1008adf923d30cc6bb",
+    "content": "Slm",
+    "date": "2024-11-12T12:29:40.077Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "67334e2c08adf923d30cc6be",
+    "sessionId": "6729399302650506a9b5e850",
+    "userId": "67333bdc7e73c852137c7b0a",
+    "content": "❤️❤️",
+    "date": "2024-11-12T12:46:35.155Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "67338f204fc43c1f71906692",
+    "sessionId": "6727e581ebd3f77b9e9c0931",
+    "userId": "67338ed04fc43c1f71906691",
+    "content": "👍👍",
+    "date": "2024-11-12T17:23:44.169Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "673390764fc43c1f71906695",
+    "sessionId": "6727e94a7b7bee46ac166c83",
+    "userId": "67338ed04fc43c1f71906691",
+    "content": "👍",
+    "date": "2024-11-12T17:29:26.244Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "67349a737a77506bda574697",
+    "sessionId": "6727ec4a7b7bee46ac166c89",
+    "userId": "672bb6d4217a340db8300c25",
+    "content": "😊😊😊👍👍👏👏❤️❤️❤️",
+    "date": "2024-11-13T12:24:19.144Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6734f8f23161753d3028348f",
+    "sessionId": "6729388602650506a9b5e84e",
+    "userId": "6734f55c3161753d3028348d",
+    "content": "👍👍❤️",
+    "date": "2024-11-13T19:07:28.928Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6734f9483161753d30283491",
+    "sessionId": "6729399302650506a9b5e850",
+    "userId": "6734f55c3161753d3028348d",
+    "content": "❤️❤️❤️",
+    "date": "2024-11-13T19:08:53.782Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6739fb9966f9383da70f4b5a",
+    "sessionId": "6727ec4a7b7bee46ac166c89",
+    "userId": "6732491d777f575b49f61ae3",
+    "content": "Thank you ",
+    "date": "2024-11-17T14:20:06.959Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "673a1ca224ecd738b11abe35",
+    "sessionId": "6727ec4a7b7bee46ac166c89",
+    "userId": "672fafab70b15e5d4bd06326",
+    "content": "😃😃😃😃😁😁",
+    "date": "2024-11-17T16:40:57.451Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6740de8981e3753f4e02df6e",
+    "sessionId": "673ba80455ba5254591822e4",
+    "userId": "6740dd9081e3753f4e02df6c",
+    "content": "😊👍",
+    "date": "2024-11-22T19:42:01.258Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "674357c5e3940649a37f590c",
+    "sessionId": "6727e581ebd3f77b9e9c0931",
+    "userId": "6728f458adcc2052fad7c055",
+    "content": "❤️",
+    "date": "2024-11-24T16:43:43.103Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6746223df95260034ac55199",
+    "sessionId": "6727e581ebd3f77b9e9c0931",
+    "userId": "6732448e777f575b49f61adf",
+    "content": "Thanks❤️❤️",
+    "date": "2024-11-26T19:32:11.747Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "674c99adbd7f1e641f14b909",
+    "sessionId": "6727ec4a7b7bee46ac166c89",
+    "userId": "6731dda7beea401913d3d1f7",
+    "content": "Thank you ❤️ \n",
+    "date": "2024-12-01T17:15:24.205Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "674f782d616aad0a3d50699b",
+    "sessionId": "673afd221eba4f5eb1d4238e",
+    "userId": "6733a0b44fc43c1f719066a1",
+    "content": "👏👏",
+    "date": "2024-12-03T21:29:14.216Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "675051296b341773d47f7202",
+    "sessionId": "673afd221eba4f5eb1d4238e",
+    "userId": "6735dce4bfa33a0315b5485a",
+    "content": "tu es le meiller",
+    "date": "2024-12-04T12:55:05.047Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6750a851745ac0139450cb3a",
+    "sessionId": "67438f4309f0523d16956168",
+    "userId": "672ca1778b94e145ed45c32f",
+    "content": "Thanks👏",
+    "date": "2024-12-04T19:06:56.570Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "67896da1f276b92ab4c285bb",
+    "sessionId": "677e6b350bcf0f70b73fbef3",
+    "userId": "6731b23dce53925d119ee27c",
+    "content": "Merci monsieur 🙏❤️❤️\n ",
+    "date": "2025-01-16T20:35:42.771Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "678d45ec5e037f70cf214d69",
+    "sessionId": "677e6b350bcf0f70b73fbef3",
+    "userId": "6738eedd5295544d30a60fbd",
+    "content": "Merci monsieur ",
+    "date": "2025-01-19T18:35:21.514Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "678d49ab5e037f70cf214d6b",
+    "sessionId": "677e6b350bcf0f70b73fbef3",
+    "userId": "678d47c95e037f70cf214d6a",
+    "content": "Merci beaucoup❤️👏",
+    "date": "2025-01-19T18:51:20.194Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "67a8bc3e3ad8da1535300824",
+    "sessionId": "67975931fd91b16d92bb74ee",
+    "userId": "6738eedd5295544d30a60fbd",
+    "content": "❤️",
+    "date": "2025-02-09T14:31:24.741Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "690b9fc85276617d697e2a71",
+    "sessionId": "6729399302650506a9b5e850",
+    "userId": "690b9eda5276617d697e2a6f",
+    "content": "Good👍",
+    "date": "2025-11-05T19:04:39.401Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6914c83913c53a337f5e797b",
+    "sessionId": "672937dd02650506a9b5e84d",
+    "userId": "6914c66913c53a337f5e7979",
+    "content": "❤❤❤👏👏",
+    "date": "2025-11-12T17:47:35.419Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "672b6e9f3b1a8e06bf9ecbb3",
+    "sessionId": "6727e9a77b7bee46ac166c84",
+    "userId": "672b6d753b1a8e06bf9ecbb1",
+    "content": "thank you",
+    "date": "2024-11-06T13:26:55.667Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "672ba2580eb0212c3904a284",
+    "sessionId": "6729399302650506a9b5e850",
+    "userId": "672ba1c60eb0212c3904a282",
+    "content": "Good❤️",
+    "date": "2024-11-06T17:07:37.832Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "672bc15f217a340db8300c2b",
+    "sessionId": "672937dd02650506a9b5e84d",
+    "userId": "672b1c84989b550cf6fb0374",
+    "content": "Well done❤️‍🩹",
+    "date": "2024-11-06T19:19:58.660Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "672ca2558b94e145ed45c331",
+    "sessionId": "672939e002650506a9b5e851",
+    "userId": "672ca1778b94e145ed45c32f",
+    "content": "good \n",
+    "date": "2024-11-07T11:19:48.911Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "672d1a4326451528ff0b04dc",
+    "sessionId": "6729391402650506a9b5e84f",
+    "userId": "672ca1778b94e145ed45c32f",
+    "content": "Wonderful ❤️",
+    "date": "2024-11-07T19:51:30.430Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6731092cb8f4b976443f8f11",
+    "sessionId": "672937dd02650506a9b5e84d",
+    "userId": "67310555b8f4b976443f8f10",
+    "content": "C'était très facile je vous propose de rendre vos cours plus difficile au deuxième trimestre en vous remerciant \n",
+    "date": "2024-11-10T19:27:37.519Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6731dedbbeea401913d3d1fb",
+    "sessionId": "6727e9a77b7bee46ac166c84",
+    "userId": "6731de5ebeea401913d3d1f9",
+    "content": "good",
+    "date": "2024-11-11T10:39:22.927Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6731fd10a075f233631f25a7",
+    "sessionId": "6727e581ebd3f77b9e9c0931",
+    "userId": "6731fa56a075f233631f2597",
+    "content": "Good ❣️thank you",
+    "date": "2024-11-11T12:48:15.018Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "67323eab777f575b49f61add",
+    "sessionId": "672939e002650506a9b5e851",
+    "userId": "67323bc9777f575b49f61ad8",
+    "content": "🤗",
+    "date": "2024-11-12T17:27:05.012Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "673306f6afdf4328352f5f15",
+    "sessionId": "672937dd02650506a9b5e84d",
+    "userId": "67330637afdf4328352f5f13",
+    "content": "!!!!!!!!!!!!!!!!!!!!!!!!!!",
+    "date": "2024-11-12T07:42:45.586Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "67338f794fc43c1f71906694",
+    "sessionId": "6727e8e57b7bee46ac166c82",
+    "userId": "67338ed04fc43c1f71906691",
+    "content": "👍",
+    "date": "2024-11-12T17:25:13.444Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6733a07b4fc43c1f719066a0",
+    "sessionId": "6727ec4a7b7bee46ac166c89",
+    "userId": "6731b3a9ce53925d119ee27d",
+    "content": "💖💖💖💖",
+    "date": "2024-11-12T18:37:43.708Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6733bbfdd3385855f39d58bb",
+    "sessionId": "6727e581ebd3f77b9e9c0931",
+    "userId": "672bb6d4217a340db8300c25",
+    "content": "❤️❤️",
+    "date": "2024-11-12T20:35:06.220Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6734f87e3161753d3028348e",
+    "sessionId": "672937dd02650506a9b5e84d",
+    "userId": "6734f55c3161753d3028348d",
+    "content": "❤️❤️❤️",
+    "date": "2024-11-13T19:05:32.171Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6734f9673161753d30283492",
+    "sessionId": "672939e002650506a9b5e851",
+    "userId": "6734f55c3161753d3028348d",
+    "content": "Good❤️",
+    "date": "2024-11-13T19:09:26.450Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "673783b6b52eb618109cabe6",
+    "sessionId": "6727e581ebd3f77b9e9c0931",
+    "userId": "6728e8f4e374644b81642bc0",
+    "content": "Hello❤️❤️❤️❤️",
+    "date": "2024-11-15T17:24:06.131Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "673a1cd124ecd738b11abe36",
+    "sessionId": "6727ec4a7b7bee46ac166c89",
+    "userId": "672fafab70b15e5d4bd06326",
+    "content": "😃😃😃😃 thank you",
+    "date": "2024-11-17T16:41:48.219Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "673b7f48164c5c6b1a01ac8e",
+    "sessionId": "6729399302650506a9b5e850",
+    "userId": "672d136126451528ff0b04db",
+    "content": "Thanks🤍, great work",
+    "date": "2024-11-18T17:54:14.454Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "673b93618c709374fcf056a5",
+    "sessionId": "672937dd02650506a9b5e84d",
+    "userId": "673b92c28c709374fcf056a4",
+    "content": "Good ❤️❤️",
+    "date": "2024-11-18T19:19:59.695Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "673c8a3c76ad15399a39eae2",
+    "sessionId": "673ba83f55ba5254591822e5",
+    "userId": "673c89c676ad15399a39eae1",
+    "content": "very good <3 <3 \n",
+    "date": "2024-11-19T12:53:13.817Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6743599de3940649a37f590e",
+    "sessionId": "6727e89c7b7bee46ac166c81",
+    "userId": "673ade140b621f654e323323",
+    "content": "😊❤️",
+    "date": "2024-11-24T16:51:38.827Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6744bee7d1001d2f6cd7686a",
+    "sessionId": "6727ec4a7b7bee46ac166c89",
+    "userId": "6731fb6fa075f233631f25a0",
+    "content": "GOOD❤️❤️Thank you❤️❤️❤️❤️❤️❤️❤️",
+    "date": "2024-11-25T18:16:09.391Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "67461d3ef95260034ac55198",
+    "sessionId": "673ba83f55ba5254591822e5",
+    "userId": "672ca1778b94e145ed45c32f",
+    "content": "Thanks ❤️",
+    "date": "2024-11-26T19:10:52.846Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6746367a91b16f216b4e1fa5",
+    "sessionId": "6727ec4a7b7bee46ac166c89",
+    "userId": "6732448e777f575b49f61adf",
+    "content": "Thank you 😊❤️❣️",
+    "date": "2024-11-26T20:58:33.440Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "674c29f92dbd36319cf690d0",
+    "sessionId": "6727e581ebd3f77b9e9c0931",
+    "userId": "674c27002dbd36319cf690cf",
+    "content": "thank you 👍",
+    "date": "2024-12-01T09:35:07.263Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "674c8e9a2d1895359a94e8de",
+    "sessionId": "673afd221eba4f5eb1d4238e",
+    "userId": "6730dac1736d441f02378ef4",
+    "content": "🤩👏💯❤",
+    "date": "2024-12-01T16:28:08.036Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "674c8f2c2d1895359a94e8df",
+    "sessionId": "6727ec4a7b7bee46ac166c89",
+    "userId": "6730dac1736d441f02378ef4",
+    "content": "Bien❤️👏😊",
+    "date": "2024-12-01T16:30:35.955Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "677eb214ecc4a52d217b6f36",
+    "sessionId": "677e6b350bcf0f70b73fbef3",
+    "userId": "6728f458adcc2052fad7c055",
+    "content": "👏",
+    "date": "2025-01-08T17:11:18.789Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "678d0ae501d96a351bf3a044",
+    "sessionId": "677af39e73340362df063b6f",
+    "userId": "6783fb442d5fef5ec9b050eb",
+    "content": "❤️",
+    "date": "2025-01-19T14:23:33.838Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "67a5f047a04fe637257cec68",
+    "sessionId": "67975977fd91b16d92bb74f0",
+    "userId": "673ade140b621f654e323323",
+    "content": "https://youtube.com/shorts/tDydmMtIdRA?si=YmY9I_QbKPLMoCQR",
+    "date": "2025-02-07T11:36:34.085Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "67a9151e15202e5d7e16cb5b",
+    "sessionId": "67975977fd91b16d92bb74f0",
+    "userId": "672fafab70b15e5d4bd06326",
+    "content": "thank you\n",
+    "date": "2025-02-09T20:50:29.415Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "67c4c0c3eb2b861205f31807",
+    "sessionId": "67a8c9e32b1c851d32250ffa",
+    "userId": "6731fb6fa075f233631f25a0",
+    "content": "👍",
+    "date": "2025-03-02T20:34:12.647Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "67c5ccecea6be6176798e8b5",
+    "sessionId": "67c4c394eb2b861205f31808",
+    "userId": "67c5cc4bea6be6176798e8b4",
+    "content": "👏❤️👍",
+    "date": "2025-03-03T15:38:18.013Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "67c77317d47b081a4e08c3c6",
+    "sessionId": "67c4c394eb2b861205f31808",
+    "userId": "672bb6d4217a340db8300c25",
+    "content": "❤️❤️👍👍",
+    "date": "2025-03-04T21:39:34.266Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "68f919cd4d99e1268f70bad3",
+    "sessionId": "6729391402650506a9b5e84f",
+    "userId": "68f9189a4d99e1268f70bad0",
+    "content": "merci❤️",
+    "date": "2025-10-22T17:52:11.704Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "690ba0655276617d697e2a73",
+    "sessionId": "6729388602650506a9b5e84e",
+    "userId": "690b9eda5276617d697e2a6f",
+    "content": "❤️👍",
+    "date": "2025-11-05T19:07:15.882Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "67152104d082095d5cf3e2ce",
+    "sessionId": "670307c53293be7f3376909e",
+    "userId": "670d07632f0e6116663389be",
+    "content": "nice content ❤️",
+    "date": "2024-10-20T14:25:56.631Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6715639cb0eff03317dbf8c2",
+    "sessionId": "670307c53293be7f3376909e",
+    "userId": "670d07632f0e6116663389be",
+    "content": "another one ",
+    "date": "2024-10-20T19:10:04.491Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6728a132cd3e995f8474dc0b",
+    "sessionId": "6727e9a77b7bee46ac166c84",
+    "userId": "6728a034cd3e995f8474dc0a",
+    "content": "thx !! great session ! ❤️",
+    "date": "2024-11-04T10:25:53.471Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "672b38c9c9a9f6220b5fd444",
+    "sessionId": "6727e9a77b7bee46ac166c84",
+    "userId": "672b37d7c9a9f6220b5fd443",
+    "content": "thank you",
+    "date": "2024-11-06T09:37:13.630Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "672b5fec3f4a7b29bd28b80d",
+    "sessionId": "6727e9a77b7bee46ac166c84",
+    "userId": "672b5e383f4a7b29bd28b80c",
+    "content": "nice nice ❤️",
+    "date": "2024-11-06T12:24:13.215Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "672ba2170eb0212c3904a283",
+    "sessionId": "672937dd02650506a9b5e84d",
+    "userId": "672ba1c60eb0212c3904a282",
+    "content": "👍👍👍👍👍👍👍👍",
+    "date": "2024-11-06T17:06:32.563Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "672ba2a40eb0212c3904a285",
+    "sessionId": "672939e002650506a9b5e851",
+    "userId": "672ba1c60eb0212c3904a282",
+    "content": "Good❤️❤️",
+    "date": "2024-11-06T17:08:53.914Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "672bb7a2217a340db8300c27",
+    "sessionId": "6727e9a77b7bee46ac166c84",
+    "userId": "672bb6d4217a340db8300c25",
+    "content": "Good❤️❤️❤️thinks you",
+    "date": "2024-11-06T18:38:16.757Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "672fbb0ef1bd6c0e9c41578b",
+    "sessionId": "6727e581ebd3f77b9e9c0931",
+    "userId": "672fba81f1bd6c0e9c41578a",
+    "content": "👍",
+    "date": "2024-11-09T19:42:05.295Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6731d3578455093be45b4ca4",
+    "sessionId": "6727e89c7b7bee46ac166c81",
+    "userId": "6731cf168455093be45b4c95",
+    "content": "❤️❤️❤️❤️",
+    "date": "2024-11-11T09:50:15.134Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6732518a777f575b49f61ae8",
+    "sessionId": "6729391402650506a9b5e84f",
+    "userId": "67325086777f575b49f61ae7",
+    "content": "👍",
+    "date": "2024-11-11T18:48:39.476Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6733499508adf923d30cc6b8",
+    "sessionId": "672939e002650506a9b5e851",
+    "userId": "673261a36f1aee1e5c040540",
+    "content": "good❤️",
+    "date": "2024-11-12T12:26:59.809Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6733499b08adf923d30cc6b9",
+    "sessionId": "672937dd02650506a9b5e84d",
+    "userId": "67333bdc7e73c852137c7b0a",
+    "content": "Good ❤️😊",
+    "date": "2024-11-12T12:27:05.838Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "673393484fc43c1f71906697",
+    "sessionId": "6727ec4a7b7bee46ac166c89",
+    "userId": "67338ed04fc43c1f71906691",
+    "content": "👍",
+    "date": "2024-11-12T17:41:28.683Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6734f90b3161753d30283490",
+    "sessionId": "6729391402650506a9b5e84f",
+    "userId": "6734f55c3161753d3028348d",
+    "content": "❤️❤️❤️",
+    "date": "2024-11-13T19:07:54.515Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "673a3f1c8d36170f8dbeb3ef",
+    "sessionId": "6729399302650506a9b5e850",
+    "userId": "673a3e4c8d36170f8dbeb3ee",
+    "content": " amazing 🙌",
+    "date": "2024-11-17T19:08:11.538Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "674638cb91b16f216b4e1fa6",
+    "sessionId": "673afd221eba4f5eb1d4238e",
+    "userId": "6732448e777f575b49f61adf",
+    "content": "❤️❤️",
+    "date": "2024-11-26T21:08:25.819Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "674b5f541873022e1a84383a",
+    "sessionId": "6727e581ebd3f77b9e9c0931",
+    "userId": "674b5e551873022e1a843839",
+    "content": "Merci \n",
+    "date": "2024-11-30T18:54:09.617Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "674f3bd00d3995727ef7a0e8",
+    "sessionId": "6727ec4a7b7bee46ac166c89",
+    "userId": "673e1cdc5eef5f2b3eed0931",
+    "content": "Thank you ☺️👍👏❤️❤️",
+    "date": "2024-12-03T17:11:42.229Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "675050ff6b341773d47f7201",
+    "sessionId": "673afd221eba4f5eb1d4238e",
+    "userId": "6735dce4bfa33a0315b5485a",
+    "content": "🎉❤️❤️❤️🎉😊👍👍",
+    "date": "2024-12-04T12:54:21.911Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6762a493e9caad04f9936754",
+    "sessionId": "673afd221eba4f5eb1d4238e",
+    "userId": "6735dce4bfa33a0315b5485a",
+    "content": "👏👏",
+    "date": "2024-12-18T09:32:53.947Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "677ec73926aabd38548aa878",
+    "sessionId": "677c3f5260c2f87589c50129",
+    "userId": "67310555b8f4b976443f8f10",
+    "content": "Problème on ne voit pas les cours ",
+    "date": "2025-01-08T18:42:53.777Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "678fd55c6e157f4d252c4ab7",
+    "sessionId": "677e6b350bcf0f70b73fbef3",
+    "userId": "678fd4016e157f4d252c4ab6",
+    "content": "MERCI. BEAUCOUP Monsieu pour le vidéo 👍🏻😀",
+    "date": "2025-01-21T17:11:53.829Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "67a4aa8d9f3f8a207d2daa43",
+    "sessionId": "67975977fd91b16d92bb74f0",
+    "userId": "6728f458adcc2052fad7c055",
+    "content": "https://youtu.b:/org8lO09QY",
+    "date": "2025-02-06T12:24:39.979Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "67c45f690d9c581739457a09",
+    "sessionId": "67a8c9e32b1c851d32250ffa",
+    "userId": "67c45d860d9c581739457a07",
+    "content": "مسيو أبعثلنا علاش باش إيجي الدفوار 😊",
+    "date": "2025-03-02T13:38:47.468Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "672876ff10d9b755a0b7cc70",
+    "sessionId": "6727e9a77b7bee46ac166c84",
+    "userId": "6727e3fbebd3f77b9e9c092f",
+    "content": "❤️❤️❤️❤️",
+    "date": "2024-11-04T07:25:49.955Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "672a76883dc6325392b911aa",
+    "sessionId": "6729391402650506a9b5e84f",
+    "userId": "672a74c73dc6325392b911a8",
+    "content": "So nice❤️",
+    "date": "2024-11-05T19:48:23.592Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "672ba0600eb0212c3904a281",
+    "sessionId": "672937dd02650506a9b5e84d",
+    "userId": "672b6e343b1a8e06bf9ecbb2",
+    "content": "Thank you very much for these clear examples 😊",
+    "date": "2024-11-06T16:59:11.097Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "672ba4540eb0212c3904a288",
+    "sessionId": "6727e9a77b7bee46ac166c84",
+    "userId": "672ba3a20eb0212c3904a287",
+    "content": "hello",
+    "date": "2024-11-06T17:16:02.842Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "672bb1c1217a340db8300c24",
+    "sessionId": "672937dd02650506a9b5e84d",
+    "userId": "672bb138217a340db8300c23",
+    "content": "Thanks you ❤️👍😊",
+    "date": "2024-11-06T18:13:19.946Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "672bb7a2217a340db8300c26",
+    "sessionId": "6727e9a77b7bee46ac166c84",
+    "userId": "672bb6d4217a340db8300c25",
+    "content": "Good❤️❤️❤️thinks you",
+    "date": "2024-11-06T18:38:20.326Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "672f478576db8a190f646dcc",
+    "sessionId": "6729391402650506a9b5e84f",
+    "userId": "672f450576db8a190f646dcb",
+    "content": ",😍😍😍❤️👌\n👌",
+    "date": "2024-11-09T11:29:07.548Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6733089dafdf4328352f5f17",
+    "sessionId": "672937dd02650506a9b5e84d",
+    "userId": "6733078cafdf4328352f5f16",
+    "content": "Bonjour",
+    "date": "2024-11-12T07:49:48.389Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "67338f614fc43c1f71906693",
+    "sessionId": "6727e89c7b7bee46ac166c81",
+    "userId": "67338ed04fc43c1f71906691",
+    "content": "👍",
+    "date": "2024-11-12T17:24:49.536Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "67339eb94fc43c1f7190669c",
+    "sessionId": "6727e581ebd3f77b9e9c0931",
+    "userId": "6731b3a9ce53925d119ee27d",
+    "content": "Thanks 😍😍💖",
+    "date": "2024-11-12T18:30:16.064Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6734802e920c85166a233a94",
+    "sessionId": "6727ec4a7b7bee46ac166c89",
+    "userId": "673471f9f913956cb584c76a",
+    "content": "❤️❤️❤️",
+    "date": "2024-11-13T10:32:13.598Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "67376af9e632b220d5aa3112",
+    "sessionId": "6727ec4a7b7bee46ac166c89",
+    "userId": "67376978e632b220d5aa3111",
+    "content": "😊😊😊😊انت اعز استاذ عندي❤️❤️❤️❤️",
+    "date": "2024-11-15T15:38:31.792Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "673ade510b621f654e323324",
+    "sessionId": "6727ec4a7b7bee46ac166c89",
+    "userId": "673ade140b621f654e323323",
+    "content": "🎉",
+    "date": "2024-11-18T06:27:28.759Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "673b3f5758c13a0130ea75d7",
+    "sessionId": "6727ec4a7b7bee46ac166c89",
+    "userId": "673b3f0358c13a0130ea75d6",
+    "content": "THANK YOU ❤️❤️❤️👏👏👏🎉🎉🎉😊😊",
+    "date": "2024-11-18T12:21:29.680Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "673b3f9b58c13a0130ea75d8",
+    "sessionId": "673afd221eba4f5eb1d4238e",
+    "userId": "673b3f0358c13a0130ea75d6",
+    "content": "❤️👏🎉🎉🎉😊",
+    "date": "2024-11-18T12:22:37.432Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6744c5a1d1001d2f6cd7686f",
+    "sessionId": "6727e581ebd3f77b9e9c0931",
+    "userId": "6744c45cd1001d2f6cd7686d",
+    "content": "هذا عامل جيد يا أستاذ ❤️❤️mootez glai",
+    "date": "2024-11-25T18:44:48.038Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6745fd104a8e64468e8f4618",
+    "sessionId": "673ba83f55ba5254591822e5",
+    "userId": "67345350940ee45911d88888",
+    "content": "tahnks \nsir❤️👏",
+    "date": "2024-11-26T16:53:35.013Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "674c8f8f2d1895359a94e8e0",
+    "sessionId": "6727e9a77b7bee46ac166c84",
+    "userId": "6730dac1736d441f02378ef4",
+    "content": "Bien merci ❤️👏👍",
+    "date": "2024-12-01T16:32:14.121Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "674e07397f752e5d5c6c0ecd",
+    "sessionId": "673afd221eba4f5eb1d4238e",
+    "userId": "672bce3a56ef581b5a307ccd",
+    "content": "❤️❤️❤️👏👏👏",
+    "date": "2024-12-02T19:14:58.611Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "67a8d94d18eee9327ab241a9",
+    "sessionId": "677af39e73340362df063b6f",
+    "userId": "672bb6d4217a340db8300c25",
+    "content": "👍👍",
+    "date": "2025-02-09T16:35:22.673Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "68efaa8b856a200ecb4c75a6",
+    "sessionId": "672937dd02650506a9b5e84d",
+    "userId": "68efa9e6856a200ecb4c75a5",
+    "content": "❤️",
+    "date": "2025-10-15T14:07:06.005Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "68f12ae467b0993423b2cc1d",
+    "sessionId": "6729391402650506a9b5e84f",
+    "userId": "6783fb442d5fef5ec9b050eb",
+    "content": "Merci ❤️",
+    "date": "2025-10-16T17:26:59.109Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "68f91d6b4d99e1268f70bad7",
+    "sessionId": "6729391402650506a9b5e84f",
+    "userId": "68f91c7a4d99e1268f70bad5",
+    "content": "great❤️❤️👍🎉",
+    "date": "2025-10-22T18:07:41.263Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6914c77713c53a337f5e797a",
+    "sessionId": "673ba80455ba5254591822e4",
+    "userId": "6914c66913c53a337f5e7979",
+    "content": " ❤❤❤❤❤❤👌👌👌💚💛🧡👏👏👏",
+    "date": "2025-11-12T17:44:22.109Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6947d12b03cba04ed96e44cb",
+    "sessionId": "677af39e73340362df063b6f",
+    "userId": "6947cf5303cba04ed96e44c9",
+    "content": "👍",
+    "date": "2025-12-21T10:51:22.793Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "672884eaadce8c25f1d92610",
+    "sessionId": "6727e9a77b7bee46ac166c84",
+    "userId": "6727e3fbebd3f77b9e9c092f",
+    "content": "😊👍🎉 hello ! good course !! thx sir !",
+    "date": "2024-11-04T08:25:13.596Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6728ea2be374644b81642bc2",
+    "sessionId": "6727e9a77b7bee46ac166c84",
+    "userId": "6728e8f4e374644b81642bc0",
+    "content": "Hello🎉😊😊❤️",
+    "date": "2024-11-04T15:37:14.737Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6728f831adcc2052fad7c056",
+    "sessionId": "6727e9a77b7bee46ac166c84",
+    "userId": "6728f458adcc2052fad7c055",
+    "content": "👍👍❤️",
+    "date": "2024-11-04T16:37:03.237Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "672bceef56ef581b5a307cce",
+    "sessionId": "6727e9a77b7bee46ac166c84",
+    "userId": "672bce3a56ef581b5a307ccd",
+    "content": "❤️thank you👏",
+    "date": "2024-11-06T20:17:49.193Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "672e4d38b9ff763087c93f0c",
+    "sessionId": "6727e581ebd3f77b9e9c0931",
+    "userId": "672e4c6db9ff763087c93f0b",
+    "content": "❤️💙👍",
+    "date": "2024-11-08T17:41:10.855Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "672e4fb7b9ff763087c93f0d",
+    "sessionId": "6729391402650506a9b5e84f",
+    "userId": "672e4c6db9ff763087c93f0b",
+    "content": "❤️❤️❤️❤️",
+    "date": "2024-11-08T17:51:50.012Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6731c2f08455093be45b4c94",
+    "sessionId": "6727e581ebd3f77b9e9c0931",
+    "userId": "6731c1d68455093be45b4c90",
+    "content": "Slm♥️❤️",
+    "date": "2024-11-11T08:40:12.907Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6731d38e8455093be45b4ca6",
+    "sessionId": "6727ec4a7b7bee46ac166c89",
+    "userId": "6731cf168455093be45b4c95",
+    "content": "❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️",
+    "date": "2024-11-11T09:51:10.348Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6731fd63a075f233631f25a8",
+    "sessionId": "6727e9a77b7bee46ac166c84",
+    "userId": "6731fa56a075f233631f2597",
+    "content": "Good ❣️ thank you ",
+    "date": "2024-11-11T12:49:38.363Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "673208b2a075f233631f25b4",
+    "sessionId": "6727e8e57b7bee46ac166c82",
+    "userId": "673205bfa075f233631f25ae",
+    "content": "thank you ❤️",
+    "date": "2024-11-10T15:28:22.095Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "67322f6f1f4ac40878140dda",
+    "sessionId": "6727e89c7b7bee46ac166c81",
+    "userId": "67322cdb1f4ac40878140dd9",
+    "content": "Seddik zeidi 😍🤩🥰🥰❣️❣️❣️❣️\n",
+    "date": "2024-11-11T16:23:09.184Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "67339f094fc43c1f7190669d",
+    "sessionId": "6727e89c7b7bee46ac166c81",
+    "userId": "6731b3a9ce53925d119ee27d",
+    "content": "❤️❤️",
+    "date": "2024-11-12T18:31:36.429Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6734e00329f04a7cc9c02699",
+    "sessionId": "6727ec4a7b7bee46ac166c89",
+    "userId": "6734d9aa804e16232eba03e8",
+    "content": "wlh ya3tik isa7a 3ajbni il cour👏👏❤️❤️",
+    "date": "2024-11-13T17:18:57.873Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6735dd67bfa33a0315b5485b",
+    "sessionId": "6727ec4a7b7bee46ac166c89",
+    "userId": "6735dce4bfa33a0315b5485a",
+    "content": "trés bien❤️❤️👏👏👍👍😊😊🎉🎉",
+    "date": "2024-11-14T10:22:17.955Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6738d4d38ec3ca1da249d8e9",
+    "sessionId": "6727e9a77b7bee46ac166c84",
+    "userId": "6732491d777f575b49f61ae3",
+    "content": "❤❤❤❤❤",
+    "date": "2024-11-16T17:22:27.448Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "673cf59274cc9d6b13647342",
+    "sessionId": "6727e581ebd3f77b9e9c0931",
+    "userId": "673cf52674cc9d6b13647341",
+    "content": "👏",
+    "date": "2024-11-19T20:31:14.120Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "674358c4e3940649a37f590d",
+    "sessionId": "6727e581ebd3f77b9e9c0931",
+    "userId": "673ade140b621f654e323323",
+    "content": "👍😊😊",
+    "date": "2024-11-24T16:48:01.522Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "67435a27e3940649a37f590f",
+    "sessionId": "6727e8e57b7bee46ac166c82",
+    "userId": "673ade140b621f654e323323",
+    "content": "😊❤️❤️",
+    "date": "2024-11-24T16:53:56.858Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6744bf0fd1001d2f6cd7686b",
+    "sessionId": "6727ec4a7b7bee46ac166c89",
+    "userId": "6731fb6fa075f233631f25a0",
+    "content": "😊❤️",
+    "date": "2024-11-25T18:16:50.009Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6744c448d1001d2f6cd7686c",
+    "sessionId": "6727e581ebd3f77b9e9c0931",
+    "userId": "6731fb6fa075f233631f25a0",
+    "content": "❤️❤️😊",
+    "date": "2024-11-25T18:39:06.414Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6745fd3c4a8e64468e8f4619",
+    "sessionId": "673ba83f55ba5254591822e5",
+    "userId": "67345350940ee45911d88888",
+    "content": "thanks \nsir😊",
+    "date": "2024-11-26T16:54:19.843Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6746325791b16f216b4e1fa4",
+    "sessionId": "6727e89c7b7bee46ac166c81",
+    "userId": "6732448e777f575b49f61adf",
+    "content": "❤️😊",
+    "date": "2024-11-26T20:40:53.041Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "678fdf49b6c3ce659aed8095",
+    "sessionId": "677af39e73340362df063b6f",
+    "userId": "6731fb6fa075f233631f25a0",
+    "content": "❤️❤️",
+    "date": "2025-01-21T17:54:16.807Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "679922a1ebd24b66d6e6f827",
+    "sessionId": "677e6b350bcf0f70b73fbef3",
+    "userId": "6732448e777f575b49f61adf",
+    "content": "Merci❤️",
+    "date": "2025-01-28T18:31:59.677Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "679ba0f02e22f55b0c81d44b",
+    "sessionId": "67975954fd91b16d92bb74ef",
+    "userId": "6731b3a9ce53925d119ee27d",
+    "content": "Thank you ☺️☺️😍👏❤️",
+    "date": "2025-01-30T15:55:27.460Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "67a1faadab99a3415e13bd16",
+    "sessionId": "67975977fd91b16d92bb74f0",
+    "userId": "6728c8746ee066645b83c412",
+    "content": "https://youtu.be/mEaLbfrZpnA?si=0kPh3KBgDha6dApB\nMonsieur le lien de ma vidéo youtube ✨✨\n",
+    "date": "2025-02-04T11:31:54.558Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "67a5df4661902526e4c7a0df",
+    "sessionId": "67975977fd91b16d92bb74f0",
+    "userId": "67a5def861902526e4c7a0de",
+    "content": "https://youtu.be/aTSiF9vPps4?si=Wh3AjzU93pSqxmFN",
+    "date": "2025-02-07T10:24:04.341Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "680a3a6282cd752e91b812ac",
+    "sessionId": "67c4c394eb2b861205f31808",
+    "userId": "67376978e632b220d5aa3111",
+    "content": "❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️😊😊😊😊😊😊😊😊😊😊😊😊👍👍👍👍👍👍👍👍👍👍👍👍👏👏👏👏👏",
+    "date": "2025-04-24T13:19:26.490Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "680f14ca12ee6a296e7a8d7e",
+    "sessionId": "67c4c394eb2b861205f31808",
+    "userId": "6728f458adcc2052fad7c055",
+    "content": "❤️❤️👏😊",
+    "date": "2025-04-28T05:40:25.077Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "68f12ace67b0993423b2cc1c",
+    "sessionId": "6729391402650506a9b5e84f",
+    "userId": "6783fb442d5fef5ec9b050eb",
+    "content": "Merci ❤️❤️",
+    "date": "2025-10-16T17:26:36.826Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "690cee9b3955726dbcac0b08",
+    "sessionId": "6729399302650506a9b5e850",
+    "userId": "690cee543955726dbcac0b07",
+    "content": "❤️❤️❤️👍",
+    "date": "2025-11-06T18:53:14.927Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "67155da4b0eff03317dbf8c1",
+    "sessionId": "670307c53293be7f3376909e",
+    "userId": "670d07632f0e6116663389be",
+    "content": "verry good ! this is a comment ! just to test 😊👍🎉",
+    "date": "2024-10-20T18:44:35.831Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6715776d22078e5fc6d64eb7",
+    "sessionId": "6715757222078e5fc6d64eb4",
+    "userId": "670d07632f0e6116663389be",
+    "content": "first comment",
+    "date": "2024-10-20T20:34:37.516Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6715778122078e5fc6d64eb8",
+    "sessionId": "6715757222078e5fc6d64eb4",
+    "userId": "670d07632f0e6116663389be",
+    "content": "second❤️",
+    "date": "2024-10-20T20:34:57.412Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6728ea2ae374644b81642bc1",
+    "sessionId": "6727e9a77b7bee46ac166c84",
+    "userId": "6728e8f4e374644b81642bc0",
+    "content": "Hello🎉😊😊❤️",
+    "date": "2024-11-04T15:37:13.754Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6728ea2ce374644b81642bc3",
+    "sessionId": "6727e9a77b7bee46ac166c84",
+    "userId": "6728e8f4e374644b81642bc0",
+    "content": "Hello🎉😊😊❤️",
+    "date": "2024-11-04T15:37:15.402Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "672b1cb0989b550cf6fb0375",
+    "sessionId": "672939e002650506a9b5e851",
+    "userId": "672b1c84989b550cf6fb0374",
+    "content": "good!\n",
+    "date": "2024-11-06T07:37:19.342Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "672cede834480d663befb570",
+    "sessionId": "6729388602650506a9b5e84e",
+    "userId": "672cec5634480d663befb56d",
+    "content": "good👍❤️",
+    "date": "2024-11-07T16:42:13.895Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "672cee0a34480d663befb571",
+    "sessionId": "672939e002650506a9b5e851",
+    "userId": "672ce4597bdde7517a08d148",
+    "content": "monsieur j'ai terminée\n",
+    "date": "2024-11-07T16:42:49.695Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "672e208079ae80701b8b8947",
+    "sessionId": "6727e581ebd3f77b9e9c0931",
+    "userId": "672e1e7079ae80701b8b8946",
+    "content": "good good",
+    "date": "2024-11-08T14:30:22.100Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6731d30d8455093be45b4ca3",
+    "sessionId": "6727e581ebd3f77b9e9c0931",
+    "userId": "6731cf168455093be45b4c95",
+    "content": "good\n",
+    "date": "2024-11-11T09:49:01.178Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6731defcbeea401913d3d1fc",
+    "sessionId": "6727e9a77b7bee46ac166c84",
+    "userId": "6731de5ebeea401913d3d1f9",
+    "content": "❤️❤️good👏❤️",
+    "date": "2024-11-11T10:39:55.727Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6731fdfea075f233631f25aa",
+    "sessionId": "6727ec4a7b7bee46ac166c89",
+    "userId": "6731fa56a075f233631f259a",
+    "content": "❤️❤️❤️❤️❤️❤️❤️ thank you ",
+    "date": "2024-11-11T12:52:13.600Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6732083da075f233631f25b3",
+    "sessionId": "6727e581ebd3f77b9e9c0931",
+    "userId": "6732069fa075f233631f25b1",
+    "content": "thank you ❤️ ",
+    "date": "2024-11-11T13:35:57.240Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "673398804fc43c1f7190669a",
+    "sessionId": "6727e581ebd3f77b9e9c0931",
+    "userId": "673397b94fc43c1f71906699",
+    "content": "🖤🖤💜💜",
+    "date": "2024-11-12T18:03:40.859Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6734aa5591b15400acf18a0b",
+    "sessionId": "6727ec4a7b7bee46ac166c89",
+    "userId": "6734a92a91b15400acf18a0a",
+    "content": "Thanks you ❤️❤️❤️❤️",
+    "date": "2024-11-13T13:32:02.414Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6734ee963161753d3028348c",
+    "sessionId": "6727e89c7b7bee46ac166c81",
+    "userId": "6734ec573161753d3028348b",
+    "content": "Hello 👍",
+    "date": "2024-11-13T18:23:15.998Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6738d33a8ec3ca1da249d8e8",
+    "sessionId": "6727e581ebd3f77b9e9c0931",
+    "userId": "6732491d777f575b49f61ae3",
+    "content": "Thank you❤❤❤",
+    "date": "2024-11-16T17:15:37.704Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "673b7e1a164c5c6b1a01ac8d",
+    "sessionId": "672939e002650506a9b5e851",
+    "userId": "67310555b8f4b976443f8f10",
+    "content": "Finish ",
+    "date": "2024-11-18T17:49:13.324Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "67435a8be3940649a37f5910",
+    "sessionId": "673afd221eba4f5eb1d4238e",
+    "userId": "6728f458adcc2052fad7c055",
+    "content": "👍",
+    "date": "2024-11-24T16:55:33.830Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "67443236079adf386a00469e",
+    "sessionId": "6727e581ebd3f77b9e9c0931",
+    "userId": "673ade140b621f654e323323",
+    "content": "❤️❤️❤️",
+    "date": "2024-11-25T08:15:50.631Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6744c48ad1001d2f6cd7686e",
+    "sessionId": "6727e8e57b7bee46ac166c82",
+    "userId": "6731fb6fa075f233631f25a0",
+    "content": "😊😊👍❤️❤️",
+    "date": "2024-11-25T18:40:12.999Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6745b4c0ef732519d921d2a1",
+    "sessionId": "67438f4309f0523d16956168",
+    "userId": "67330637afdf4328352f5f13",
+    "content": ", Thanks for the clarification 👍",
+    "date": "2024-11-26T11:45:01.499Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "674c2a7e2dbd36319cf690d1",
+    "sessionId": "6727e581ebd3f77b9e9c0931",
+    "userId": "674c27002dbd36319cf690cf",
+    "content": "❤️",
+    "date": "2024-12-01T09:37:20.524Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "674f60500d3995727ef7a0ea",
+    "sessionId": "6727e8e57b7bee46ac166c82",
+    "userId": "672bb6d4217a340db8300c25",
+    "content": "👍👍",
+    "date": "2024-12-03T19:49:09.313Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "677ecf4c403bb40bf825cabd",
+    "sessionId": "677e6b350bcf0f70b73fbef3",
+    "userId": "67460ddff5764548c2834cb5",
+    "content": "Merci👏",
+    "date": "2025-01-08T19:15:17.476Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6783ea9161ccdb3804d2e010",
+    "sessionId": "677e6b350bcf0f70b73fbef3",
+    "userId": "6731dda7beea401913d3d1f7",
+    "content": "Merci ❤️",
+    "date": "2025-01-12T16:15:09.779Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6797cb4f7fc055083e054a61",
+    "sessionId": "67975977fd91b16d92bb74f0",
+    "userId": "6731dda7beea401913d3d1f7",
+    "content": "Thank you 🤍",
+    "date": "2025-01-27T18:07:09.735Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "67a4acfa9f3f8a207d2daa44",
+    "sessionId": "67975977fd91b16d92bb74f0",
+    "userId": "6728f458adcc2052fad7c055",
+    "content": "https://youtu.be/org8gIO09QY",
+    "date": "2025-02-06T12:37:11.487Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "67a8db0918eee9327ab241aa",
+    "sessionId": "677e6b350bcf0f70b73fbef3",
+    "userId": "672bb6d4217a340db8300c25",
+    "content": "👍👍",
+    "date": "2025-02-09T16:42:47.191Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "67c36a9ae859f0128c042c41",
+    "sessionId": "67a8c9e32b1c851d32250ffa",
+    "userId": "672b9f110eb0212c3904a280",
+    "content": "مسيو محضرتش علي اخر حص و كي جاتني فرص نحضر مع كلاس آخر طلع اضراب☹️\n",
+    "date": "2025-03-01T20:14:17.601Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "67c40bbb0e8c206672d54d4c",
+    "sessionId": "67a8c9e32b1c851d32250ffa",
+    "userId": "6728f458adcc2052fad7c055",
+    "content": "مسيو بش قلتنا اتو نخليلكم اوراق تراجعو باها في البيفات و الا نهبطلكم على سيت تعلم \n😊",
+    "date": "2025-03-02T07:41:35.800Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "67c5cd2eea6be6176798e8b6",
+    "sessionId": "67a8c9e32b1c851d32250ffa",
+    "userId": "67c5cc4bea6be6176798e8b4",
+    "content": "❤️",
+    "date": "2025-03-03T15:39:23.449Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "67c5ceedea6be6176798e8b7",
+    "sessionId": "6727e9a77b7bee46ac166c84",
+    "userId": "67c5cc4bea6be6176798e8b4",
+    "content": "👏👏👏👏👏❤️😊",
+    "date": "2025-03-03T15:46:50.893Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "68e555e4079915327a99b2ce",
+    "sessionId": "6729388602650506a9b5e84e",
+    "userId": "68e55573079915327a99b2cd",
+    "content": "thank you👍",
+    "date": "2025-10-07T18:03:14.420Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "69104358fa11682e33883a08",
+    "sessionId": "672939e002650506a9b5e851",
+    "userId": "6728f458adcc2052fad7c055",
+    "content": "👍",
+    "date": "2025-11-09T07:29:29.017Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "693073280a7146537a7d3676",
+    "sessionId": "6729391402650506a9b5e84f",
+    "userId": "6738eedd5295544d30a60fbd",
+    "content": "😊",
+    "date": "2025-12-03T17:28:06.933Z",
+    "_class": "com.course.Learning.model.Comment"
+  },
+  {
+    "_id": "6947d05b03cba04ed96e44ca",
+    "sessionId": "6727e581ebd3f77b9e9c0931",
+    "userId": "6947cf5303cba04ed96e44c9",
+    "content": "😍😍👍👍",
+    "date": "2025-12-21T10:47:53.994Z",
+    "_class": "com.course.Learning.model.Comment"
+  }
+]

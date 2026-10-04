@@ -1,0 +1,548 @@
+[
+  {
+    "id": "3b43d084-c78f-4459-b4fc-c4f46d805f2c",
+    "sessionId": "43a35364-0a09-4e4e-b0d4-655d00d2cbe1",
+    "type": "PDF",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1730669680/uvwxl9duxhinjaxsfofb.pdf",
+    "position": 0,
+    "createdAt": "2026-10-02T10:35:39.305Z",
+    "_oldId": "6727ec737b7bee46ac166c8a"
+  },
+  {
+    "id": "00940065-53f2-48ef-88d6-4d5ddece2a1c",
+    "sessionId": "43a35364-0a09-4e4e-b0d4-655d00d2cbe1",
+    "type": "TEXT",
+    "content": "https://pixabay.com/fr/images/search/malware/",
+    "position": 1,
+    "createdAt": "2026-10-02T10:35:39.305Z",
+    "_oldId": "67313f35e147b93c256fae3d"
+  },
+  {
+    "id": "42ca2d62-b6b0-4f3f-9498-11222adce827",
+    "sessionId": "43a35364-0a09-4e4e-b0d4-655d00d2cbe1",
+    "type": "TEXT",
+    "content": "https://pixabay.com/fr/videos/search/malware/",
+    "position": 2,
+    "createdAt": "2026-10-02T10:35:39.305Z",
+    "_oldId": "673b08692a2d0e0c258ec2e2"
+  },
+  {
+    "id": "7ae8b738-8234-434c-8681-6d619826fb5b",
+    "sessionId": "1d877591-06cf-4d39-8f91-ecd9a71b5090",
+    "type": "PDF",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1736198324/vt6vjgsbk6mp3gq9nyaw.pdf",
+    "position": 0,
+    "createdAt": "2026-10-02T10:35:39.305Z",
+    "_oldId": "677c48ba2c00572194e95524"
+  },
+  {
+    "id": "b10593ca-2781-42ac-9e03-08e7795b039b",
+    "sessionId": "1d877591-06cf-4d39-8f91-ecd9a71b5090",
+    "type": "VIDEO",
+    "content": "https://www.youtube.com/watch?v=pkg2MU6k1es&ab_channel=ADELKASSAH",
+    "position": 1,
+    "createdAt": "2026-10-02T10:35:39.305Z",
+    "_oldId": "677c4a152c00572194e95525"
+  },
+  {
+    "id": "087f2098-45ce-4b08-977d-fb6744b47587",
+    "sessionId": "c2780cb6-36b1-41f2-82c2-4582e9bc0337",
+    "type": "TEXT",
+    "content": "Lien Padlet pour le partage de votre vidéo : ",
+    "position": 0,
+    "createdAt": "2026-10-02T10:35:39.305Z",
+    "_oldId": "67a8ca1c2b1c851d32250ffb"
+  },
+  {
+    "id": "ac683494-f8c0-41fc-8563-9d5b807440a1",
+    "sessionId": "c2780cb6-36b1-41f2-82c2-4582e9bc0337",
+    "type": "TEXT",
+    "content": "https://padlet.com/grimmgew/8eme",
+    "position": 1,
+    "createdAt": "2026-10-02T10:35:39.305Z",
+    "_oldId": "67a8ca352b1c851d32250ffc"
+  },
+  {
+    "id": "6f2fce54-a366-4ca5-8d2b-144a69fd8354",
+    "sessionId": "950a0156-6997-47a3-b624-9c42c0929ab6",
+    "type": "PDF",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1744755238/sa6bfzd2vbw55awl80a9.pdf",
+    "position": 0,
+    "createdAt": "2026-10-02T10:35:39.305Z",
+    "_oldId": "67feda2c039a760ec68bc2c6"
+  },
+  {
+    "id": "a632bb22-6821-4459-9188-880d08d92a5b",
+    "sessionId": "950a0156-6997-47a3-b624-9c42c0929ab6",
+    "type": "VIDEO",
+    "content": "https://youtu.be/13-ckdqAC3M?si=UflVj-CD9z7JXtIV",
+    "position": 1,
+    "createdAt": "2026-10-02T10:35:39.305Z",
+    "_oldId": "67feda59039a760ec68bc2c7"
+  },
+  {
+    "id": "10441dfd-f359-4847-9be4-a7a175be981c",
+    "sessionId": "046415de-9546-455f-a0ed-cecd359a5346",
+    "type": "TEXT",
+    "content": "COMMENT PUBLIER UNE VIDÉO YOUTUBE PARFAITEMENT (PC) :",
+    "position": 0,
+    "createdAt": "2026-10-02T10:35:39.305Z",
+    "_oldId": "677e6b540bcf0f70b73fbef4"
+  },
+  {
+    "id": "73fd4c16-00e5-4977-94de-dbb5a95ca1a1",
+    "sessionId": "046415de-9546-455f-a0ed-cecd359a5346",
+    "type": "VIDEO",
+    "content": "https://www.youtube.com/watch?v=jwFG_njjKjY",
+    "position": 1,
+    "createdAt": "2026-10-02T10:35:39.305Z",
+    "_oldId": "677e6b640bcf0f70b73fbef5"
+  },
+  {
+    "id": "240856b6-7d04-4518-82ab-0203e7617e04",
+    "sessionId": "046415de-9546-455f-a0ed-cecd359a5346",
+    "type": "TEXT",
+    "content": "COMMENT PUBLIER UNE VIDÉO YOUTUBE SUR TÉLÉPHONE :",
+    "position": 2,
+    "createdAt": "2026-10-02T10:35:39.305Z",
+    "_oldId": "677e6b8d0bcf0f70b73fbef6"
+  },
+  {
+    "id": "25322fce-8d9b-46fe-892f-e238b4f9ec27",
+    "sessionId": "046415de-9546-455f-a0ed-cecd359a5346",
+    "type": "VIDEO",
+    "content": "https://www.youtube.com/watch?v=PYJrfdK3iFs",
+    "position": 3,
+    "createdAt": "2026-10-02T10:35:39.305Z",
+    "_oldId": "677e6b9b0bcf0f70b73fbef7"
+  },
+  {
+    "id": "9eff1c60-539e-4fb0-ba79-a2f85997903b",
+    "sessionId": "71337327-0b34-4910-b004-99c0e0626b7d",
+    "type": "IMAGE",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1740587438/ozgwdz9ooaipcnmxcfmp.jpg",
+    "position": 0,
+    "createdAt": "2026-10-02T10:35:39.305Z",
+    "_oldId": "67bf41b5d343c132f27a7810"
+  },
+  {
+    "id": "287d2ddb-3134-4929-b08d-e6cd05c30de8",
+    "sessionId": "71337327-0b34-4910-b004-99c0e0626b7d",
+    "type": "IMAGE",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1740587489/pavb5qr5scvpkwbystfu.jpg",
+    "position": 1,
+    "createdAt": "2026-10-02T10:35:39.305Z",
+    "_oldId": "67bf41e4d343c132f27a7811"
+  },
+  {
+    "id": "eaa6e901-3ab8-4963-abff-6adc21b8d5b3",
+    "sessionId": "71337327-0b34-4910-b004-99c0e0626b7d",
+    "type": "IMAGE",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1740587514/jwm2qt23ye1wdgodk2ug.jpg",
+    "position": 2,
+    "createdAt": "2026-10-02T10:35:39.305Z",
+    "_oldId": "67bf41fdd343c132f27a7812"
+  },
+  {
+    "id": "62aec17b-4421-43fd-8aba-bd209fbd2684",
+    "sessionId": "ce60ed8f-bf57-4347-a6b7-a83a79e6bb7e",
+    "type": "TEXT",
+    "content": "",
+    "position": 0,
+    "createdAt": "2026-10-02T10:35:39.305Z"
+  },
+  {
+    "id": "6ce1eb27-cd4d-4aa7-8d6a-02bcfaccdc9d",
+    "sessionId": "ce60ed8f-bf57-4347-a6b7-a83a79e6bb7e",
+    "type": "TEXT",
+    "content": "",
+    "position": 1,
+    "createdAt": "2026-10-02T10:35:39.305Z"
+  },
+  {
+    "id": "2623af51-a238-475c-893c-7413949e1164",
+    "sessionId": "ce60ed8f-bf57-4347-a6b7-a83a79e6bb7e",
+    "type": "TEXT",
+    "content": "",
+    "position": 2,
+    "createdAt": "2026-10-02T10:35:39.305Z"
+  },
+  {
+    "id": "67b2811b-947f-40fa-9a53-fbb933d74cd9",
+    "sessionId": "04e1ebdc-4e66-42a8-8cfc-9cabddd27e66",
+    "type": "IMAGE",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1730933555/rvmlbtl9q1ku3wo1ifcc.jpg",
+    "position": 0,
+    "createdAt": "2026-10-02T10:35:39.305Z",
+    "_oldId": "672bf3376baec6715cba48bd"
+  },
+  {
+    "id": "36110b0d-9bbd-43e7-aa1a-de94837cdb50",
+    "sessionId": "bd93c73d-9571-468d-8045-db2b26704460",
+    "type": "IMAGE",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1730933626/bsofeqrxislct43r8vvp.jpg",
+    "position": 0,
+    "createdAt": "2026-10-02T10:35:39.305Z",
+    "_oldId": "672bf37e6baec6715cba48be"
+  },
+  {
+    "id": "c32e7e20-d632-4818-a10e-34adab143520",
+    "sessionId": "c852d7df-fce9-4879-ad8b-5631e08a4c84",
+    "type": "IMAGE",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1730757048/vzs2tohxxtba0egs9t0u.jpg",
+    "position": 0,
+    "createdAt": "2026-10-02T10:35:39.305Z",
+    "_oldId": "672941bb952b1372798a3832"
+  },
+  {
+    "id": "c8dcd66a-b3d1-4516-8df0-10b8f374ea63",
+    "sessionId": "c852d7df-fce9-4879-ad8b-5631e08a4c84",
+    "type": "IMAGE",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1730974371/hqnqookmswcrzcgdia05.jpg",
+    "position": 1,
+    "createdAt": "2026-10-02T10:35:39.306Z",
+    "_oldId": "672c92a6b16eba6bf057e738"
+  },
+  {
+    "id": "fa018566-3b16-4956-b6a7-2f402ed70f0a",
+    "sessionId": "287756c1-df78-47d2-b8ce-924f8e1d4399",
+    "type": "PDF",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1731967266/jecggy2jxqdb6eup3hjf.pdf",
+    "position": 0,
+    "createdAt": "2026-10-02T10:35:39.306Z",
+    "_oldId": "673bb93bc622566cb6d16804"
+  },
+  {
+    "id": "2bffbc8a-4635-4560-9f9e-27122ec0179b",
+    "sessionId": "6a5aa278-c745-46a4-a0f5-926367afc393",
+    "type": "PDF",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1732480876/bnr5w0i4ez0imwpw7nfv.pdf",
+    "position": 0,
+    "createdAt": "2026-10-02T10:35:39.306Z",
+    "_oldId": "67438f7009f0523d16956169"
+  },
+  {
+    "id": "eadf36fc-e0a8-4d56-bbdd-49b4745e57ca",
+    "sessionId": "6a5aa278-c745-46a4-a0f5-926367afc393",
+    "type": "IMAGE",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1732624245/sfhdprztwemtqwyybxho.jpg",
+    "position": 1,
+    "createdAt": "2026-10-02T10:35:39.306Z",
+    "_oldId": "6745bf7ed4977418f899b737"
+  },
+  {
+    "id": "48d6d7ce-92ac-4a54-ab33-4678b45f920b",
+    "sessionId": "cbb16e5c-f008-4b0b-b2b4-d17f98e8a919",
+    "type": "TEXT",
+    "content": "hello",
+    "position": 0,
+    "createdAt": "2026-10-02T10:35:39.306Z",
+    "_oldId": "69471cfb03cba04ed96e44c2"
+  },
+  {
+    "id": "67173d18-4aba-49be-8517-267afeb35319",
+    "sessionId": "cbb16e5c-f008-4b0b-b2b4-d17f98e8a919",
+    "type": "IMAGE",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1766268187/wnq9xceakobl0xso9xxz.png",
+    "position": 1,
+    "createdAt": "2026-10-02T10:35:39.306Z",
+    "_oldId": "69471d2203cba04ed96e44c3"
+  },
+  {
+    "id": "fd53bd38-2546-4dcc-996e-89d203f42747",
+    "sessionId": "cbb16e5c-f008-4b0b-b2b4-d17f98e8a919",
+    "type": "VIDEO",
+    "content": "https://www.youtube.com/watch?v=PrCqPc7oYY8&list=PLec__-qi5emxxbE8qBnvlnA_Bgc55RuuA",
+    "position": 2,
+    "createdAt": "2026-10-02T10:35:39.306Z",
+    "_oldId": "69471dcc03cba04ed96e44c4"
+  },
+  {
+    "id": "126739b9-0706-433b-a268-eca0b2c4a929",
+    "sessionId": "cbb16e5c-f008-4b0b-b2b4-d17f98e8a919",
+    "type": "PDF",
+    "content": "http://res.cloudinary.com/drd41undw/raw/upload/v1766268509/jjrqmhvxemvxzcd0trhm",
+    "position": 3,
+    "createdAt": "2026-10-02T10:35:39.306Z",
+    "_oldId": "69471e6003cba04ed96e44c5"
+  },
+  {
+    "id": "3db7100c-5664-46f3-a901-5439f2508fcc",
+    "sessionId": "ec36b87f-af16-4a1c-a594-ebb0a36d2cd1",
+    "type": "IMAGE",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1730756887/o4jwwrtcv0phg9nv6mao.jpg",
+    "position": 0,
+    "createdAt": "2026-10-02T10:35:39.306Z",
+    "_oldId": "6729411a952b1372798a382f"
+  },
+  {
+    "id": "62dcacf6-9cb9-4668-aa23-ef89f9b220f9",
+    "sessionId": "a2575156-68b8-409d-927d-e0d24e0b5612",
+    "type": "IMAGE",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1730757091/xv2nmxprkhjk9hmeinoc.jpg",
+    "position": 0,
+    "createdAt": "2026-10-02T10:35:39.306Z",
+    "_oldId": "672941e7952b1372798a3833"
+  },
+  {
+    "id": "20fce4d6-9c47-40a2-8e35-ff13fddf00cc",
+    "sessionId": "a1bc7b45-7918-44f6-bc11-b87fd0d8f2fe",
+    "type": "VIDEO",
+    "content": "https://www.youtube.com/watch?v=CGcF8tLd7ew&ab_channel=AmrYasser",
+    "position": 0,
+    "createdAt": "2026-10-02T10:35:39.306Z",
+    "_oldId": "673b07e72a2d0e0c258ec2e1"
+  },
+  {
+    "id": "623c05b4-f1f9-4727-8b06-80b386dc8f46",
+    "sessionId": "f10e69ab-5c77-46fa-a7ee-4a149d6c5ee6",
+    "type": "PDF",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1737972123/idvzsmeb3ledzr5gx2wz.pdf",
+    "position": 0,
+    "createdAt": "2026-10-02T10:35:39.306Z",
+    "_oldId": "679759a0fd91b16d92bb74f1"
+  },
+  {
+    "id": "7caf772e-7294-45d6-b5ef-200e2f976f4c",
+    "sessionId": "f10e69ab-5c77-46fa-a7ee-4a149d6c5ee6",
+    "type": "IMAGE",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1737972156/pprk60jlvzlme09n2uqv.png",
+    "position": 1,
+    "createdAt": "2026-10-02T10:35:39.306Z",
+    "_oldId": "679759befd91b16d92bb74f2"
+  },
+  {
+    "id": "ff0d6b36-53cf-4e9b-b164-85e533884236",
+    "sessionId": "5aa99bc3-2496-4c22-bd09-1d14b4367435",
+    "type": "TEXT",
+    "content": "Hello",
+    "position": 0,
+    "createdAt": "2026-10-02T10:35:39.306Z",
+    "_oldId": "6947201c03cba04ed96e44c8"
+  },
+  {
+    "id": "88a5ce14-09af-46e3-8eda-7fe52cea6881",
+    "sessionId": "9dd787a5-4a66-4b5e-b265-c04714db73ba",
+    "type": "TEXT",
+    "content": "Présentation de Filmora :\n\nFilmora est un logiciel de montage vidéo facile à utiliser, conçu pour les débutants comme pour les utilisateurs plus avancés. Il offre une interface intuitive qui permet de créer des vidéos de manière fluide.",
+    "position": 0,
+    "createdAt": "2026-10-02T10:35:39.306Z",
+    "_oldId": "6727eb0f7b7bee46ac166c85"
+  },
+  {
+    "id": "3114954c-46fc-41d5-ad4f-c7384ab24bd2",
+    "sessionId": "9dd787a5-4a66-4b5e-b265-c04714db73ba",
+    "type": "TEXT",
+    "content": "Caractéristiques principales :\n\n- Interface conviviale : Filmora est simple à naviguer, ce qui facilite l'apprentissage pour les nouveaux utilisateurs.\n- Outils de montage : Il propose des outils pour couper, recadrer et fusionner des clips, ainsi que pour ajouter des transitions et des effets spéciaux.\n- Bibliothèque de médias : Les utilisateurs peuvent accéder à une large sélection de musique, de sons et d'effets visuels pour enrichir leurs projets.\n- Exportation facile : Les vidéos peuvent être exportées dans différents formats et partagées directement sur les réseaux sociaux.",
+    "position": 1,
+    "createdAt": "2026-10-02T10:35:39.306Z",
+    "_oldId": "6727eb497b7bee46ac166c86"
+  },
+  {
+    "id": "03893f9d-29a2-4a08-98dc-a909a6b44621",
+    "sessionId": "9dd787a5-4a66-4b5e-b265-c04714db73ba",
+    "type": "TEXT",
+    "content": "Voici quelques mots à définir pour une présentation sur Filmora :\n\nMontage vidéo : Processus d'assemblage et d'édition de séquences vidéo pour créer un produit final cohérent.\n\nInterface : La façon dont un utilisateur interagit avec un logiciel, incluant les menus, les boutons et la disposition générale.\n\nClip : Un extrait vidéo ou audio utilisé dans un projet de montage.\n\nTransition : Effet visuel utilisé pour passer d'un clip à un autre dans une vidéo.\n\nEffets spéciaux : Techniques utilisées pour créer des illusions visuelles qui améliorent l'aspect visuel d'une vidéo.\n\nExportation : Processus de sauvegarde d'un projet finalisé dans un format vidéo spécifique.\n\nBibliothèque de médias : Collection de fichiers audio, vidéos et images disponibles pour être utilisés dans le montage.\n\nRecadrage : Modification de la taille ou de la forme d'un clip vidéo pour se concentrer sur une partie spécifique de l'image.\n\nMusique de fond : Musique ajoutée à une vidéo pour enrichir l'expérience visuelle et auditive.\n\nRéseaux sociaux : Plates-formes en ligne où les utilisateurs partagent des contenus, comme des vidéos, des photos et des messages.",
+    "position": 2,
+    "createdAt": "2026-10-02T10:35:39.306Z",
+    "_oldId": "6727eb8e7b7bee46ac166c87"
+  },
+  {
+    "id": "769b87ff-34ed-459a-827a-0d477efe1e9f",
+    "sessionId": "9dd787a5-4a66-4b5e-b265-c04714db73ba",
+    "type": "VIDEO",
+    "content": "https://www.youtube.com/watch?v=ZsnLkw9DZWU&ab_channel=FrancoisTutosetMatosVid%C3%A9os",
+    "position": 3,
+    "createdAt": "2026-10-02T10:35:39.306Z",
+    "_oldId": "6727ebe97b7bee46ac166c88"
+  },
+  {
+    "id": "b6cb558d-0705-409e-be4c-a942ba912afd",
+    "sessionId": "5d424420-575e-43f9-afdd-1e866e287574",
+    "type": "IMAGE",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1740950108/tcygydzb3cmwkktyqyko.png",
+    "position": 0,
+    "createdAt": "2026-10-02T10:35:39.306Z",
+    "_oldId": "67c4ca5feb2b861205f3180d"
+  },
+  {
+    "id": "eb9f0ba9-3536-4488-a3fd-22efed2a631a",
+    "sessionId": "5d424420-575e-43f9-afdd-1e866e287574",
+    "type": "IMAGE",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1740950362/j5j9ezqfcrjkpeqnj3h9.png",
+    "position": 1,
+    "createdAt": "2026-10-02T10:35:39.306Z",
+    "_oldId": "67c4cb5deb2b861205f3180e"
+  },
+  {
+    "id": "e2e35dc5-8fea-441d-9726-9ea38493d6ad",
+    "sessionId": "ef787a55-ad01-4f5c-a14d-2acb6e45b5a9",
+    "type": "TEXT",
+    "content": "title",
+    "position": 0,
+    "createdAt": "2026-10-02T10:35:39.306Z",
+    "_oldId": "6715770822078e5fc6d64eb5"
+  },
+  {
+    "id": "9a2429db-06c8-4ec5-b4cf-1b79283c9069",
+    "sessionId": "ef787a55-ad01-4f5c-a14d-2acb6e45b5a9",
+    "type": "IMAGE",
+    "content": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc9APxkj0xClmrU3PpMZglHQkx446nQPG6lA&s",
+    "position": 1,
+    "createdAt": "2026-10-02T10:35:39.306Z",
+    "_oldId": "6715775422078e5fc6d64eb6"
+  },
+  {
+    "id": "408f0a29-2784-4aba-a91b-fa47ab323c66",
+    "sessionId": "ef787a55-ad01-4f5c-a14d-2acb6e45b5a9",
+    "type": "PDF",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1730659848/ijsxngqrf0cpcjo6atmy.pdf",
+    "position": 2,
+    "createdAt": "2026-10-02T10:35:39.306Z",
+    "_oldId": "6727c61644d1667292c3e433"
+  },
+  {
+    "id": "deaf832a-2fa9-4a13-818a-b2fd2980d58a",
+    "sessionId": "e4a0c89a-360e-4bc7-a31d-d4e0cc3c5939",
+    "type": "IMAGE",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1730756919/ogvnnnsldbsndvs8g9sh.jpg",
+    "position": 0,
+    "createdAt": "2026-10-02T10:35:39.306Z",
+    "_oldId": "67294139952b1372798a3830"
+  },
+  {
+    "id": "af816327-17d0-42c4-8a7e-af05313f2696",
+    "sessionId": "6d40bfd1-8d58-4ed1-9c83-094880a5c485",
+    "type": "IMAGE",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1730756957/jabm4vl9wfltnorqwymr.jpg",
+    "position": 0,
+    "createdAt": "2026-10-02T10:35:39.306Z",
+    "_oldId": "67294161952b1372798a3831"
+  },
+  {
+    "id": "76b5ad0f-7f94-429b-9f57-7fa7d7ca457b",
+    "sessionId": "0ff0739e-f109-476f-a206-731e04933562",
+    "type": "PDF",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1738136454/qcc5xp7irrf79cy8ency.pdf",
+    "position": 0,
+    "createdAt": "2026-10-02T10:35:39.306Z",
+    "_oldId": "6799db8aad804c490191c16f"
+  },
+  {
+    "id": "08b808b5-4768-4fc2-bc15-e4a948f6d171",
+    "sessionId": "9a17ee07-69b3-4588-8af0-a3d3ed848f8d",
+    "type": "PDF",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1740586743/vbfb4vojismj2byxpvzt.pdf",
+    "position": 0,
+    "createdAt": "2026-10-02T10:35:39.306Z",
+    "_oldId": "67bf3efdd343c132f27a780e"
+  },
+  {
+    "id": "62901a60-55e6-4adc-b99d-3308129bc8d3",
+    "sessionId": "8c4cd31d-c6b1-4d4c-8898-e8cecf9f3f71",
+    "type": "PDF",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1730933907/e4o7niclhmtxbe3zvo7w.pdf",
+    "position": 0,
+    "createdAt": "2026-10-02T10:35:39.306Z",
+    "_oldId": "672bf4966baec6715cba48c1"
+  },
+  {
+    "id": "684c3313-3330-426d-9f89-71163f15168e",
+    "sessionId": "44c6a09c-30a3-4aa8-bc7d-636606413e4d",
+    "type": "PDF",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1736111385/zgwrmpsv2olg19lc1m56.pdf",
+    "position": 0,
+    "createdAt": "2026-10-02T10:35:39.306Z",
+    "_oldId": "677af51e73340362df063b70"
+  },
+  {
+    "id": "87bcfc95-0736-439b-ba25-342d49681d1d",
+    "sessionId": "152e80fb-17c7-4671-94d5-c087a818b708",
+    "type": "IMAGE",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1730933672/jkoafp02dmkofzcmmz7u.jpg",
+    "position": 0,
+    "createdAt": "2026-10-02T10:35:39.306Z",
+    "_oldId": "672bf3ac6baec6715cba48bf"
+  },
+  {
+    "id": "05371f71-2c9d-4bff-8986-3453d2a79246",
+    "sessionId": "152e80fb-17c7-4671-94d5-c087a818b708",
+    "type": "IMAGE",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1730933697/lfic3loypexj8hc207ji.jpg",
+    "position": 1,
+    "createdAt": "2026-10-02T10:35:39.306Z",
+    "_oldId": "672bf3c46baec6715cba48c0"
+  },
+  {
+    "id": "2d77b519-58ce-4901-a1f5-24fa50d3010e",
+    "sessionId": "b123fb26-a989-4b7b-8e02-53f1c2f198da",
+    "type": "PDF",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1731963006/uqity8lw8xtc1pfkthhc.pdf",
+    "position": 0,
+    "createdAt": "2026-10-02T10:35:39.306Z",
+    "_oldId": "673ba88f55ba5254591822e6"
+  },
+  {
+    "id": "0db21350-cc2d-4883-a695-f24b1b9a0394",
+    "sessionId": "b123fb26-a989-4b7b-8e02-53f1c2f198da",
+    "type": "VIDEO",
+    "content": "https://www.youtube.com/watch?v=bNMlkOLzI_0&t=32s&ab_channel=RobotiqueSite",
+    "position": 1,
+    "createdAt": "2026-10-02T10:35:39.306Z",
+    "_oldId": "673ba8cd55ba5254591822e7"
+  },
+  {
+    "id": "fbd0a6fa-72e7-4627-8c95-1fa198eb3700",
+    "sessionId": "b123fb26-a989-4b7b-8e02-53f1c2f198da",
+    "type": "IMAGE",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1731963445/hyf5jdh6fq3aswbajqys.png",
+    "position": 2,
+    "createdAt": "2026-10-02T10:35:39.306Z",
+    "_oldId": "673baa3c55ba5254591822e8"
+  },
+  {
+    "id": "3a941c52-f908-4754-a6f8-4f01f1c8d499",
+    "sessionId": "9c6a2b8f-86d2-466c-a8ae-f47f455e9cf2",
+    "type": "PDF",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1736195548/zhyeesjzb6nrveyinfue.pdf",
+    "position": 0,
+    "createdAt": "2026-10-02T10:35:39.306Z",
+    "_oldId": "677c3de960c2f87589c50127"
+  },
+  {
+    "id": "995903ca-ce53-4202-a2cd-bd5a7c97ba9d",
+    "sessionId": "9c6a2b8f-86d2-466c-a8ae-f47f455e9cf2",
+    "type": "PDF",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1736195594/sraulfoju8uxltcc0iyn.pdf",
+    "position": 1,
+    "createdAt": "2026-10-02T10:35:39.306Z",
+    "_oldId": "677c3e0d60c2f87589c50128"
+  },
+  {
+    "id": "83d9db51-79fc-4cdb-b291-02df230b6d48",
+    "sessionId": "5812ef1b-420d-4dea-8248-64e1d557078d",
+    "type": "IMAGE",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1740948827/ajozn8aatbqzoaotaqvo.png",
+    "position": 0,
+    "createdAt": "2026-10-02T10:35:39.306Z",
+    "_oldId": "67c4c55eeb2b861205f31809"
+  },
+  {
+    "id": "9fb5d193-822c-4adc-aea7-651c9abab487",
+    "sessionId": "5812ef1b-420d-4dea-8248-64e1d557078d",
+    "type": "IMAGE",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1740949559/ldt7f9xbglrqeooblas7.png",
+    "position": 1,
+    "createdAt": "2026-10-02T10:35:39.306Z",
+    "_oldId": "67c4c83beb2b861205f3180a"
+  },
+  {
+    "id": "1e033df7-c768-40c9-a097-2e67b48465dd",
+    "sessionId": "5812ef1b-420d-4dea-8248-64e1d557078d",
+    "type": "IMAGE",
+    "content": "http://res.cloudinary.com/drd41undw/image/upload/v1740949667/n5itgrtegz2dsbyj4ov3.png",
+    "position": 2,
+    "createdAt": "2026-10-02T10:35:39.306Z",
+    "_oldId": "67c4c8a6eb2b861205f3180c"
+  }
+]
