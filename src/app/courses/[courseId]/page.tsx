@@ -25,6 +25,7 @@ import Link from "next/link";
 import { EditModeToggle } from "@/components/courses/edit-mode-toggle";
 import { InlineEditable } from "@/components/courses/inline-editable";
 import { DraggableList } from "@/components/courses/draggable-list";
+import { ConfirmDialog } from "@/components/shared/confirm-dialog";
 import { toast } from "sonner";
 
 interface CourseDetailPageProps {
@@ -39,6 +40,8 @@ export default function CourseDetailPage({ params }: CourseDetailPageProps) {
   const [isEditMode, setIsEditMode] = useState(false);
   const [expandedSessions, setExpandedSessions] = useState<Set<string>>(new Set());
   const [isLoading, setIsLoading] = useState(true);
+  const [showDeleteDialog, setShowDeleteDialog] = useState(false);
+  const [isDeleting, setIsDeleting] = useState(false);
 
   const isTeacher = session?.user.role === "TEACHER" || session?.user.role === "ADMIN";
   const isOwner = course && session && course.teacherId === session.user.id;
@@ -163,6 +166,25 @@ export default function CourseDetailPage({ params }: CourseDetailPageProps) {
     setExpandedSessions(newExpanded);
   }
 
+  async function handleDeleteCourse() {
+    setIsDeleting(true);
+    try {
+      const res = await fetch(`/api/courses/${courseId}`, { method: "DELETE" });
+      if (res.ok) {
+        toast.success("Course deleted");
+        router.push("/courses");
+      } else {
+        toast.error("Failed to delete course");
+        setShowDeleteDialog(false);
+      }
+    } catch {
+      toast.error("Failed to delete course");
+      setShowDeleteDialog(false);
+    } finally {
+      setIsDeleting(false);
+    }
+  }
+
   if (isLoading) {
     return (
       <div className="container mx-auto px-4 py-8">
@@ -234,10 +256,20 @@ export default function CourseDetailPage({ params }: CourseDetailPageProps) {
             </div>
           </div>
           {canEdit && (
-            <EditModeToggle
-              isEditMode={isEditMode}
-              onToggle={() => setIsEditMode(!isEditMode)}
-            />
+            <div className="flex items-center gap-2">
+              <Button
+                variant="destructive"
+                size="sm"
+                onClick={() => setShowDeleteDialog(true)}
+              >
+                <Trash2 className="h-4 w-4" />
+                Delete
+              </Button>
+              <EditModeToggle
+                isEditMode={isEditMode}
+                onToggle={() => setIsEditMode(!isEditMode)}
+              />
+            </div>
           )}
         </div>
       </div>
@@ -362,6 +394,17 @@ export default function CourseDetailPage({ params }: CourseDetailPageProps) {
           </div>
         )}
       </div>
+
+      <ConfirmDialog
+        open={showDeleteDialog}
+        onOpenChange={setShowDeleteDialog}
+        title="Delete Course"
+        description="Are you sure you want to delete this course? All sessions and content will be permanently removed."
+        confirmLabel="Delete"
+        onConfirm={handleDeleteCourse}
+        isLoading={isDeleting}
+        variant="destructive"
+      />
     </div>
   );
 }

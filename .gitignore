@@ -40,3 +40,6 @@ prisma/migrations/dev/
 # sqlite
 prisma/dev.db
 prisma/dev.db-journal
+.neon
+
+.vercel
