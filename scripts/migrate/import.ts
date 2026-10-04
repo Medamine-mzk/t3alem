@@ -17,96 +17,86 @@ async function main() {
   const users = readCollection("users");
   const userIdMap = new Map<string, string>();
 
+  const existingUsers = await prisma.user.findMany({ select: { id: true, email: true } });
+  const existingEmails = new Set(existingUsers.map((u) => u.email));
+
+  const newUsers = users.filter((u: any) => !existingEmails.has(u.email));
+  const usersData = newUsers.map(({ _oldId, ...data }: any) => data);
+
+  if (usersData.length > 0) {
+    await prisma.user.createMany({ data: usersData, skipDuplicates: true });
+  }
+
+  const allUsers = await prisma.user.findMany({ select: { id: true, email: true } });
   for (const user of users) {
-    const { _oldId, ...data } = user;
-    try {
-      const created = await prisma.user.create({ data });
-      userIdMap.set(user.id, created.id);
-    } catch {
-      const existing = await prisma.user.findUnique({ where: { email: data.email } });
-      if (existing) {
-        userIdMap.set(user.id, existing.id);
-      }
+    const match = allUsers.find((u) => u.email === user.email);
+    if (match) {
+      userIdMap.set(user.id, match.id);
     }
   }
   console.log(`Imported ${userIdMap.size} users`);
 
   const courses = readCollection("courses");
-  let coursesImported = 0;
-  for (const course of courses) {
+  const coursesData = courses.map((course: any) => {
     const { _oldId, ...data } = course;
     const dbTeacherId = userIdMap.get(data.teacherId);
     if (dbTeacherId) {
       data.teacherId = dbTeacherId;
     }
-    try {
-      await prisma.course.create({ data });
-      coursesImported++;
-    } catch (e) {
-      console.error(`Failed to import course: ${data.title}`);
-    }
+    return data;
+  });
+  if (coursesData.length > 0) {
+    const result = await prisma.course.createMany({ data: coursesData, skipDuplicates: true });
+    console.log(`Imported ${result.count} courses`);
   }
-  console.log(`Imported ${coursesImported} courses`);
 
   const sessions = readCollection("sessions");
-  let sessionsImported = 0;
-  for (const session of sessions) {
+  const sessionsData = sessions.map((session: any) => {
     const { _oldId, _contentBlocks, ...data } = session;
-    try {
-      await prisma.session.create({ data });
-      sessionsImported++;
-    } catch (e) {
-      console.error(`Failed to import session: ${data.title}`);
-    }
+    return data;
+  });
+  if (sessionsData.length > 0) {
+    const result = await prisma.session.createMany({ data: sessionsData, skipDuplicates: true });
+    console.log(`Imported ${result.count} sessions`);
   }
-  console.log(`Imported ${sessionsImported} sessions`);
 
   const contentBlocks = readCollection("contentBlocks");
-  let contentBlocksImported = 0;
-  for (const block of contentBlocks) {
+  const contentBlocksData = contentBlocks.map((block: any) => {
     const { _oldId, ...data } = block;
-    try {
-      await prisma.contentBlock.create({ data });
-      contentBlocksImported++;
-    } catch (e) {
-      console.error(`Failed to import content block`);
-    }
+    return data;
+  });
+  if (contentBlocksData.length > 0) {
+    const result = await prisma.contentBlock.createMany({ data: contentBlocksData, skipDuplicates: true });
+    console.log(`Imported ${result.count} content blocks`);
   }
-  console.log(`Imported ${contentBlocksImported} content blocks`);
 
   const comments = readCollection("comments");
-  let commentsImported = 0;
-  for (const comment of comments) {
+  const commentsData = comments.map((comment: any) => {
     const { _oldId, ...data } = comment;
     const dbUserId = userIdMap.get(data.userId);
     if (dbUserId) {
       data.userId = dbUserId;
     }
-    try {
-      await prisma.comment.create({ data });
-      commentsImported++;
-    } catch (e) {
-      console.error(`Failed to import comment`);
-    }
+    return data;
+  });
+  if (commentsData.length > 0) {
+    const result = await prisma.comment.createMany({ data: commentsData, skipDuplicates: true });
+    console.log(`Imported ${result.count} comments`);
   }
-  console.log(`Imported ${commentsImported} comments`);
 
   const visits = readCollection("visits");
-  let visitsImported = 0;
-  for (const visit of visits) {
+  const visitsData = visits.map((visit: any) => {
     const { _oldId, ...data } = visit;
     const dbUserId = userIdMap.get(data.userId);
     if (dbUserId) {
       data.userId = dbUserId;
     }
-    try {
-      await prisma.visit.create({ data });
-      visitsImported++;
-    } catch (e) {
-      console.error(`Failed to import visit`);
-    }
+    return data;
+  });
+  if (visitsData.length > 0) {
+    const result = await prisma.visit.createMany({ data: visitsData, skipDuplicates: true });
+    console.log(`Imported ${result.count} visits`);
   }
-  console.log(`Imported ${visitsImported} visits`);
 
   console.log("Import complete!");
 }
