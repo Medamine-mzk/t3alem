@@ -5,14 +5,8 @@ import { prisma } from "@/lib/prisma";
 
 export async function POST(request: Request) {
   try {
-    const session = await getServerSession(authOptions);
-
-    if (!session) {
-      return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
-    }
-
     const body = await request.json();
-    const { sessionId } = body;
+    const { sessionId, userId: clientUserId } = body;
 
     if (!sessionId) {
       return NextResponse.json(
@@ -29,16 +23,16 @@ export async function POST(request: Request) {
       return NextResponse.json({ error: "Session not found" }, { status: 404 });
     }
 
-    const visit = await prisma.visit.upsert({
-      where: {
-        userId_sessionId: {
-          userId: session.user.id,
-          sessionId,
-        },
-      },
-      update: { visitedAt: new Date() },
-      create: {
-        userId: session.user.id,
+    const session = await getServerSession(authOptions);
+    const userId = session?.user?.id || clientUserId;
+
+    if (!userId) {
+      return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+    }
+
+    const visit = await prisma.visit.create({
+      data: {
+        userId,
         sessionId,
       },
     });

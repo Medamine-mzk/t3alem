@@ -105,7 +105,6 @@ model Visit {
   session   Session  @relation(fields: [sessionId], references: [id])
   visitedAt DateTime @default(now())
 
-  @@unique([userId, sessionId])
   @@index([userId])
   @@index([sessionId])
 }
