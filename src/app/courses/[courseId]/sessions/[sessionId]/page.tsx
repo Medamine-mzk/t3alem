@@ -30,6 +30,7 @@ import { InlineEditable } from "@/components/courses/inline-editable";
 import { DraggableList } from "@/components/courses/draggable-list";
 import { RichTextEditor } from "@/components/courses/rich-text-editor";
 import { ContentBlockEditor } from "@/components/sessions/content-block-editor";
+import dynamic from "next/dynamic";
 import MDEditor from "@uiw/react-md-editor";
 import { toast } from "sonner";
 
@@ -394,16 +395,11 @@ export default function SessionDetailPage({ params }: SessionDetailPageProps) {
                 </div>
               )}
 
-              {showAddBlock && isEditMode && (
-                <div className="mt-4 border-t pt-4">
-                  <ContentBlockEditor
-                    sessionId={sessionId}
-                    onContentAdded={() => {
-                      fetchData();
-                      setShowAddBlock(false);
-                    }}
-                  />
-                </div>
+              {isEditMode && (
+                <Button onClick={() => setShowAddBlock(true)} variant="outline" size="sm" className="mt-4">
+                  <Plus className="mr-2 h-4 w-4" />
+                  Add Section
+                </Button>
               )}
             </CardContent>
           </Card>

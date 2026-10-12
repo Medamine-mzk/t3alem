@@ -1,70 +1,109 @@
-import { getServerSession } from "next-auth";
-import { authOptions } from "@/lib/auth";
-import { prisma } from "@/lib/prisma";
-import { notFound } from "next/navigation";
+"use client";
+
+import { useState, useEffect, use } from "react";
+import { useRouter } from "next/navigation";
+import { useSession } from "next-auth/react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 import { formatDate } from "@/lib/utils";
 import Link from "next/link";
-import { ArrowLeft, FileText, Image, Video, HelpCircle, Plus } from "lucide-react";
+import { ArrowLeft, FileText, Image as ImageIcon, Video, HelpCircle, Plus } from "lucide-react";
 import { ContentBlockActions } from "./content-block-actions";
 import { ContentBlockEditor } from "@/components/sessions/content-block-editor";
-
-export const dynamic = "force-dynamic";
+import MDEditor from "@uiw/react-md-editor";
+import { toast } from "sonner";
 
 interface ManageContentPageProps {
   params: Promise<{ sessionId: string }>;
 }
 
-export default async function ManageContentPage({ params }: ManageContentPageProps) {
-  const { sessionId } = await params;
-  const session = await getServerSession(authOptions);
+function getBlockIcon(type: string) {
+  switch (type) {
+    case "TEXT":
+      return <FileText className="h-4 w-4" />;
+    case "IMAGE":
+      return <ImageIcon className="h-4 w-4" />;
+    case "VIDEO":
+      return <Video className="h-4 w-4" />;
+    case "QUIZ":
+      return <HelpCircle className="h-4 w-4" />;
+    default:
+      return <FileText className="h-4 w-4" />;
+  }
+}
 
-  const sessionData = await prisma.session.findUnique({
-    where: { id: sessionId },
-    include: {
-      course: {
-        select: {
-          id: true,
-          title: true,
-          teacherId: true,
-        },
-      },
-      contentBlocks: {
-        orderBy: { position: "asc" },
-      },
-    },
-  });
+function getYouTubeEmbedUrl(url: string): string | null {
+  const match = url.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/)([\w-]+)/);
+  return match ? `https://www.youtube.com/embed/${match[1]}` : null;
+}
+
+export default function ManageContentPage({ params }: ManageContentPageProps) {
+  const { sessionId } = use(params);
+  const router = useRouter();
+  const { data: session } = useSession();
+  const [sessionData, setSessionData] = useState<any>(null);
+  const [isLoading, setIsLoading] = useState(true);
+  const [showAddBlock, setShowAddBlock] = useState(false);
+  const [isDeleting, setIsDeleting] = useState(false);
+
+  async function fetchData() {
+    try {
+      const res = await fetch(`/api/sessions/${sessionId}`);
+      if (res.ok) {
+        setSessionData(await res.json());
+      }
+    } catch (error) {
+      console.error("Failed to fetch session:", error);
+    } finally {
+      setIsLoading(false);
+    }
+  }
+
+  useEffect(() => {
+    fetchData();
+  }, [sessionId]);
+
+  async function handleDeleteBlock(blockId: string) {
+    setIsDeleting(true);
+    try {
+      const res = await fetch(`/api/sessions/${sessionId}/content/${blockId}`, { method: "DELETE" });
+      if (res.ok) {
+        setSessionData({
+          ...sessionData,
+          contentBlocks: sessionData.contentBlocks.filter((b: any) => b.id !== blockId),
+        });
+        toast.success("Content block deleted");
+      }
+    } catch {
+      toast.error("Failed to delete content block");
+    } finally {
+      setIsDeleting(false);
+    }
+  }
+
+  if (isLoading) {
+    return (
+      <div className="container mx-auto px-4 py-8">
+        <div className="animate-pulse space-y-4">
+          <div className="h-8 w-48 bg-muted rounded" />
+          <div className="h-4 w-96 bg-muted rounded" />
+        </div>
+      </div>
+    );
+  }
 
   if (!sessionData) {
-    notFound();
+    return (
+      <div className="container mx-auto px-4 py-8">
+        <h1 className="text-2xl font-bold">Session not found</h1>
+      </div>
+    );
   }
-
-  const isOwner = sessionData.course.teacherId === session?.user.id;
-  const isAdmin = session?.user.role === "ADMIN";
-
-  if (!isOwner && !isAdmin) {
-    notFound();
-  }
-
-  const getBlockIcon = (type: string) => {
-    switch (type) {
-      case "TEXT":
-        return <FileText className="h-4 w-4" />;
-      case "IMAGE":
-        return <Image className="h-4 w-4" />;
-      case "VIDEO":
-        return <Video className="h-4 w-4" />;
-      case "QUIZ":
-        return <HelpCircle className="h-4 w-4" />;
-      default:
-        return <FileText className="h-4 w-4" />;
-    }
-  };
 
   return (
     <div className="container mx-auto px-4 py-8">
       <Link
-        href={`/courses/${sessionData.course.id}`}
+        href={`/courses/${sessionData.courseId}`}
         className="mb-6 inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground"
       >
         <ArrowLeft className="h-4 w-4" />
@@ -74,7 +113,7 @@ export default async function ManageContentPage({ params }: ManageContentPagePro
       <div className="mb-8">
         <h1 className="text-3xl font-bold">{sessionData.title}</h1>
         <p className="text-muted-foreground">
-          {sessionData.course.title} · {formatDate(sessionData.date)}
+          {formatDate(sessionData.date)}
         </p>
       </div>
 
@@ -109,25 +148,30 @@ export default async function ManageContentPage({ params }: ManageContentPagePro
                 </CardHeader>
                 <CardContent>
                   {block.type === "TEXT" && (
-                    <p className="whitespace-pre-wrap text-sm">{block.content}</p>
+                    <div className="prose prose-sm max-w-none">
+                      <MDEditor.Markdown source={block.content} />
+                    </div>
                   )}
                   {block.type === "IMAGE" && (
-                    <img
-                      src={block.content}
-                      alt="Content"
-                      className="max-w-full rounded-lg"
-                    />
+                    <img src={block.content} alt="Content" className="max-w-full rounded-lg" />
                   )}
                   {block.type === "VIDEO" && (
-                    <video
-                      src={block.content}
-                      controls
-                      className="max-w-full rounded-lg"
-                    />
+                    getYouTubeEmbedUrl(block.content) ? (
+                      <div className="aspect-video">
+                        <iframe
+                          src={getYouTubeEmbedUrl(block.content)!}
+                          className="h-full w-full rounded"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowFullScreen
+                        />
+                      </div>
+                    ) : (
+                      <video src={block.content} controls className="max-w-full rounded-lg" />
+                    )
                   )}
                   {block.type === "QUIZ" && (
                     <div className="rounded-lg bg-muted p-4">
-                      <p className="text-sm">{block.content}</p>
+                      <p className="text-sm whitespace-pre-wrap">{block.content}</p>
                     </div>
                   )}
                 </CardContent>
@@ -145,11 +189,24 @@ export default async function ManageContentPage({ params }: ManageContentPagePro
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <ContentBlockEditor sessionId={sessionId} />
+              <Button onClick={() => setShowAddBlock(true)} className="w-full">
+                <Plus className="mr-2 h-4 w-4" />
+                Add Block
+              </Button>
             </CardContent>
           </Card>
         </div>
       </div>
+
+      <ContentBlockEditor
+        sessionId={sessionId}
+        open={showAddBlock}
+        onOpenChange={setShowAddBlock}
+        onContentAdded={() => {
+          fetchData();
+          setShowAddBlock(false);
+        }}
+      />
     </div>
   );
 }
