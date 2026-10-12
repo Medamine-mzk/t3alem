@@ -315,7 +315,7 @@ export default function SessionDetailPage({ params }: SessionDetailPageProps) {
                   items={sessionData.contentBlocks}
                   onReorder={handleReorderBlocks}
                   renderItem={(block: any, index: number) => (
-                    <div key={block.id} className="rounded-lg border bg-card p-4">
+                    <div key={block.id} data-content-block className="rounded-lg border bg-card p-4">
                       <div className="flex items-center justify-between mb-3">
                         <div className="flex items-center gap-2">
                           {getBlockIcon(block.type)}
@@ -358,7 +358,7 @@ export default function SessionDetailPage({ params }: SessionDetailPageProps) {
               ) : (
                 <div className="space-y-4">
                   {sessionData.contentBlocks.map((block: any) => (
-                    <div key={block.id} className="rounded-lg border bg-card p-4">
+                    <div key={block.id} data-content-block className="rounded-lg border bg-card p-4">
                       <div className="flex items-center gap-2 mb-2">
                         {getBlockIcon(block.type)}
                         <span className="text-xs font-medium uppercase text-muted-foreground">{block.type}</span>
@@ -485,7 +485,17 @@ export default function SessionDetailPage({ params }: SessionDetailPageProps) {
         sessionId={sessionId}
         open={showAddBlock}
         onOpenChange={setShowAddBlock}
-        onContentAdded={fetchData}
+        onContentAdded={() => {
+          fetchData().then(() => {
+            setTimeout(() => {
+              const blocks = document.querySelectorAll('[data-content-block]');
+              const lastBlock = blocks[blocks.length - 1];
+              if (lastBlock) {
+                lastBlock.scrollIntoView({ behavior: 'smooth', block: 'start' });
+              }
+            }, 100);
+          });
+        }}
       />
     </div>
   );
