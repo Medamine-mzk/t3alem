@@ -480,6 +480,13 @@ export default function SessionDetailPage({ params }: SessionDetailPageProps) {
           </div>
         </div>
       </div>
+
+      <ContentBlockEditor
+        sessionId={sessionId}
+        open={showAddBlock}
+        onOpenChange={setShowAddBlock}
+        onContentAdded={fetchData}
+      />
     </div>
   );
 }
