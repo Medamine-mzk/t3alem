@@ -216,6 +216,11 @@ export default function SessionDetailPage({ params }: SessionDetailPageProps) {
     }
   };
 
+  function getYouTubeEmbedUrl(url: string): string | null {
+    const match = url.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/)([\w-]+)/);
+    return match ? `https://www.youtube.com/embed/${match[1]}` : null;
+  }
+
   return (
     <div className="container mx-auto px-4 py-8">
       <Link
@@ -331,7 +336,18 @@ export default function SessionDetailPage({ params }: SessionDetailPageProps) {
                       ) : block.type === "IMAGE" ? (
                         <img src={block.content} alt="Content" className="max-w-full rounded" />
                       ) : block.type === "VIDEO" ? (
-                        <video src={block.content} controls className="max-w-full rounded" />
+                        getYouTubeEmbedUrl(block.content) ? (
+                          <div className="aspect-video">
+                            <iframe
+                              src={getYouTubeEmbedUrl(block.content)!}
+                              className="h-full w-full rounded"
+                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                              allowFullScreen
+                            />
+                          </div>
+                        ) : (
+                          <video src={block.content} controls className="max-w-full rounded" />
+                        )
                       ) : (
                         <p className="text-sm">{block.content}</p>
                       )}
@@ -355,7 +371,18 @@ export default function SessionDetailPage({ params }: SessionDetailPageProps) {
                         <img src={block.content} alt="Content" className="max-w-full rounded" />
                       )}
                       {block.type === "VIDEO" && (
-                        <video src={block.content} controls className="max-w-full rounded" />
+                        getYouTubeEmbedUrl(block.content) ? (
+                          <div className="aspect-video">
+                            <iframe
+                              src={getYouTubeEmbedUrl(block.content)!}
+                              className="h-full w-full rounded"
+                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                              allowFullScreen
+                            />
+                          </div>
+                        ) : (
+                          <video src={block.content} controls className="max-w-full rounded" />
+                        )
                       )}
                       {block.type === "QUIZ" && (
                         <div className="rounded-lg bg-muted/50 p-3">
