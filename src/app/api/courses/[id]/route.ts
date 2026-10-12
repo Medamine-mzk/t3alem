@@ -25,7 +25,7 @@ export async function GET(
           },
         },
         sessions: {
-          orderBy: { date: "asc" },
+          orderBy: { position: "asc" },
           include: {
             _count: {
               select: { comments: true, visits: true },

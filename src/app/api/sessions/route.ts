@@ -18,7 +18,7 @@ export async function GET(request: Request) {
 
     const sessions = await prisma.session.findMany({
       where: { courseId },
-      orderBy: { date: "asc" },
+      orderBy: { position: "asc" },
       include: {
         _count: {
           select: { comments: true, visits: true },
@@ -63,12 +63,18 @@ export async function POST(request: Request) {
       return NextResponse.json({ error: "Forbidden" }, { status: 403 });
     }
 
+    const maxPosition = await prisma.session.aggregate({
+      where: { courseId: validated.courseId },
+      _max: { position: true },
+    });
+
     const newSession = await prisma.session.create({
       data: {
         courseId: validated.courseId,
         title: validated.title,
         description: validated.description,
         date: validated.date || new Date(),
+        position: (maxPosition._max.position ?? -1) + 1,
       },
     });
 

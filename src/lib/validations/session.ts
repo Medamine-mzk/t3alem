@@ -25,6 +25,7 @@ export const sessionUpdateSchema = z.object({
     .max(5000, "Description must be at most 5000 characters")
     .optional(),
   date: z.coerce.date().optional(),
+  position: z.coerce.number().int().min(0).optional(),
 });
 
 export const contentBlockCreateSchema = z.object({

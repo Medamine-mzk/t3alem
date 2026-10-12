@@ -57,6 +57,7 @@ model Session {
   title       String
   description String
   date        DateTime @default(now())
+  position    Int      @default(0)
   createdAt   DateTime @default(now())
   updatedAt   DateTime @updatedAt
 
