@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import MDEditor from "@uiw/react-md-editor";
 import remarkGfm from "remark-gfm";
 import { Button } from "@/components/ui/button";
@@ -16,6 +16,13 @@ export function RichTextEditor({ value, onSave, placeholder = "Enter content..."
   const [isEditing, setIsEditing] = useState(false);
   const [editValue, setEditValue] = useState(value);
   const [isSaving, setIsSaving] = useState(false);
+  const editorRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (isEditing && editorRef.current) {
+      editorRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  }, [isEditing]);
 
   async function handleSave() {
     if (editValue.trim() === value) {
@@ -42,7 +49,7 @@ export function RichTextEditor({ value, onSave, placeholder = "Enter content..."
 
   if (isEditing) {
     return (
-      <div className="space-y-2">
+      <div className="space-y-2" ref={editorRef}>
         <MDEditor
           value={editValue}
           onChange={(val) => setEditValue(val || "")}
