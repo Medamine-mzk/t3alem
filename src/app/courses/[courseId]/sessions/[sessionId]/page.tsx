@@ -30,6 +30,7 @@ import { InlineEditable } from "@/components/courses/inline-editable";
 import { DraggableList } from "@/components/courses/draggable-list";
 import { RichTextEditor } from "@/components/courses/rich-text-editor";
 import { ContentBlockEditor } from "@/components/sessions/content-block-editor";
+import { ContentBlockRenderer } from "@/components/sessions/content-block-renderer";
 import dynamic from "next/dynamic";
 import MDEditor from "@uiw/react-md-editor";
 import { toast } from "sonner";
@@ -363,33 +364,7 @@ export default function SessionDetailPage({ params }: SessionDetailPageProps) {
                         {getBlockIcon(block.type)}
                         <span className="text-xs font-medium uppercase text-muted-foreground">{block.type}</span>
                       </div>
-                      {block.type === "TEXT" && (
-                        <div className="prose prose-sm max-w-none" data-color-mode={theme}>
-                          <MDEditor.Markdown source={block.content} />
-                        </div>
-                      )}
-                      {block.type === "IMAGE" && (
-                        <img src={block.content} alt="Content" className="max-w-full rounded" />
-                      )}
-                      {block.type === "VIDEO" && (
-                        getYouTubeEmbedUrl(block.content) ? (
-                          <div className="aspect-video">
-                            <iframe
-                              src={getYouTubeEmbedUrl(block.content)!}
-                              className="h-full w-full rounded"
-                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                              allowFullScreen
-                            />
-                          </div>
-                        ) : (
-                          <video src={block.content} controls className="max-w-full rounded" />
-                        )
-                      )}
-                      {block.type === "QUIZ" && (
-                        <div className="rounded-lg bg-muted/50 p-3">
-                          <p className="text-sm">{block.content}</p>
-                        </div>
-                      )}
+                      <ContentBlockRenderer block={block} theme={theme} />
                     </div>
                   ))}
                 </div>

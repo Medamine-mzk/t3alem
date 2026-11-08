@@ -10,7 +10,7 @@ import Link from "next/link";
 import { ArrowLeft, FileText, Image as ImageIcon, Video, HelpCircle, Plus } from "lucide-react";
 import { ContentBlockActions } from "./content-block-actions";
 import { ContentBlockEditor } from "@/components/sessions/content-block-editor";
-import MDEditor from "@uiw/react-md-editor";
+import { ContentBlockRenderer } from "@/components/sessions/content-block-renderer";
 import { toast } from "sonner";
 
 interface ManageContentPageProps {
@@ -147,33 +147,7 @@ export default function ManageContentPage({ params }: ManageContentPageProps) {
                   </div>
                 </CardHeader>
                 <CardContent>
-                  {block.type === "TEXT" && (
-                    <div className="prose prose-sm max-w-none">
-                      <MDEditor.Markdown source={block.content} />
-                    </div>
-                  )}
-                  {block.type === "IMAGE" && (
-                    <img src={block.content} alt="Content" className="max-w-full rounded-lg" />
-                  )}
-                  {block.type === "VIDEO" && (
-                    getYouTubeEmbedUrl(block.content) ? (
-                      <div className="aspect-video">
-                        <iframe
-                          src={getYouTubeEmbedUrl(block.content)!}
-                          className="h-full w-full rounded"
-                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                          allowFullScreen
-                        />
-                      </div>
-                    ) : (
-                      <video src={block.content} controls className="max-w-full rounded-lg" />
-                    )
-                  )}
-                  {block.type === "QUIZ" && (
-                    <div className="rounded-lg bg-muted p-4">
-                      <p className="text-sm whitespace-pre-wrap">{block.content}</p>
-                    </div>
-                  )}
+                  <ContentBlockRenderer block={block} />
                 </CardContent>
               </Card>
             ))

@@ -195,15 +195,34 @@ export function ContentBlockEditor({ sessionId, open, onOpenChange, onContentAdd
           )}
 
           {blockType === "QUIZ" && (
-            <div className="space-y-2">
-              <Label>Quiz Questions</Label>
-              <textarea
-                value={textContent}
-                onChange={(e) => setTextContent(e.target.value)}
-                placeholder="Enter your quiz questions..."
-                className="w-full rounded-md border border-input bg-background px-3 py-2 text-sm min-h-[150px] focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring"
-                rows={6}
-              />
+            <div className="space-y-4">
+              <div className="space-y-2">
+                <Label>Quiz URL</Label>
+                <input
+                  type="url"
+                  value={textContent}
+                  onChange={(e) => setTextContent(e.target.value)}
+                  placeholder="https://example.com/quiz"
+                  className="w-full rounded-md border border-input bg-background px-3 py-2 text-sm focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring"
+                />
+                <p className="text-xs text-muted-foreground">
+                  Enter the URL of your quiz or evaluation
+                </p>
+              </div>
+              {textContent && (
+                <div className="rounded-lg border bg-muted/50 p-4">
+                  <p className="mb-2 text-xs font-medium text-muted-foreground">Preview</p>
+                  <a
+                    href={textContent}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 rounded-lg bg-primary px-4 py-2.5 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary/90"
+                  >
+                    <HelpCircle className="h-4 w-4" />
+                    Take Quiz
+                  </a>
+                </div>
+              )}
             </div>
           )}
 
