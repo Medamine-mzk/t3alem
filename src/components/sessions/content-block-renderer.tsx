@@ -20,6 +20,13 @@ function isUrl(str: string): boolean {
   }
 }
 
+function normalizeUrl(url: string): string {
+  if (url.startsWith("http://")) {
+    return url.replace(/^http:\/\//, "https://");
+  }
+  return url;
+}
+
 function isImageUrl(url: string): boolean {
   return /\.(jpg|jpeg|png|gif|webp|svg)(\?.*)?$/i.test(url);
 }
@@ -48,6 +55,8 @@ function getDomain(url: string): string {
 export function ContentBlockRenderer({ block, theme }: ContentBlockRendererProps) {
   const [copied, setCopied] = useState(false);
 
+  const content = normalizeUrl(block.content);
+
   async function copyUrl(url: string) {
     try {
       await navigator.clipboard.writeText(url);
@@ -70,7 +79,7 @@ export function ContentBlockRenderer({ block, theme }: ContentBlockRendererProps
 
   // QUIZ type — always a clickable button (URL)
   if (block.type === "QUIZ") {
-    const url = block.content;
+    const url = content;
     return (
       <div className="flex flex-wrap items-center gap-3">
         <a
@@ -96,10 +105,10 @@ export function ContentBlockRenderer({ block, theme }: ContentBlockRendererProps
   }
 
   // IMAGE type or image URL auto-detect
-  if (block.type === "IMAGE" || (isUrl(block.content) && isImageUrl(block.content))) {
+  if (block.type === "IMAGE" || (isUrl(content) && isImageUrl(content))) {
     return (
       <div className="space-y-2">
-        <img src={block.content} alt="Content" className="max-w-full rounded-lg" />
+        <img src={content} alt="Content" className="max-w-full rounded-lg" />
         {isUrl(block.content) && (
           <div className="flex items-center gap-2">
             <a
@@ -126,7 +135,7 @@ export function ContentBlockRenderer({ block, theme }: ContentBlockRendererProps
 
   // VIDEO type
   if (block.type === "VIDEO") {
-    const embedUrl = getYouTubeEmbedUrl(block.content);
+    const embedUrl = getYouTubeEmbedUrl(content);
     if (embedUrl) {
       return (
         <div className="aspect-video">
@@ -139,23 +148,23 @@ export function ContentBlockRenderer({ block, theme }: ContentBlockRendererProps
         </div>
       );
     }
-    return <video src={block.content} controls className="max-w-full rounded" />;
+    return <video src={content} controls className="max-w-full rounded" />;
   }
 
   // PDF URL auto-detect
-  if (isUrl(block.content) && isPdfUrl(block.content)) {
+  if (isUrl(content) && isPdfUrl(content)) {
     return (
       <div className="space-y-3">
         <div className="overflow-hidden rounded-lg border">
           <iframe
-            src={block.content}
+            src={content}
             className="h-[500px] w-full"
             title="PDF Viewer"
           />
         </div>
         <div className="flex items-center gap-2">
           <a
-            href={block.content}
+            href={content}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground"
@@ -178,11 +187,11 @@ export function ContentBlockRenderer({ block, theme }: ContentBlockRendererProps
   }
 
   // Generic URL auto-detect
-  if (isUrl(block.content)) {
+  if (isUrl(content)) {
     return (
       <div className="flex flex-wrap items-center gap-3">
         <a
-          href={block.content}
+          href={content}
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 rounded-lg bg-muted px-4 py-2.5 text-sm font-medium transition-colors hover:bg-accent"
@@ -204,5 +213,5 @@ export function ContentBlockRenderer({ block, theme }: ContentBlockRendererProps
   }
 
   // Fallback: plain text
-  return <p className="text-sm whitespace-pre-wrap">{block.content}</p>;
+  return <p className="text-sm whitespace-pre-wrap">{content}</p>;
 }
