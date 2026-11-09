@@ -113,7 +113,7 @@ export default function ManageContentPage({ params }: ManageContentPageProps) {
       <div className="mb-8">
         <h1 className="text-3xl font-bold">{sessionData.title}</h1>
         <p className="text-muted-foreground">
-          {formatDate(sessionData.date)}
+          {formatDate(sessionData.updatedAt || sessionData.date)}
         </p>
       </div>
 

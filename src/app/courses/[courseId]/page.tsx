@@ -373,7 +373,7 @@ export default function CourseDetailPage({ params }: CourseDetailPageProps) {
                         <div className="mt-1 flex items-center gap-4 text-xs text-muted-foreground">
                           <span className="flex items-center gap-1">
                             <Calendar className="h-3 w-3" />
-                            {formatDate(session.date)}
+                            {formatDate(session.updatedAt || session.date)}
                           </span>
                           <span className="flex items-center gap-1">
                             <Eye className="h-3 w-3" />
