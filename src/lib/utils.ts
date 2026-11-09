@@ -27,6 +27,13 @@ export function getInitials(firstName: string, lastName: string): string {
   return `${firstName.charAt(0)}${lastName.charAt(0)}`.toUpperCase();
 }
 
+export function formatClassName(className: string | null | undefined): string | null {
+  if (!className) return null;
+  const trimmed = className.trim();
+  if (!trimmed || trimmed.toLowerCase() === "unknown") return null;
+  return trimmed;
+}
+
 export function truncate(str: string, length: number): string {
   if (str.length <= length) return str;
   return str.slice(0, length) + "...";

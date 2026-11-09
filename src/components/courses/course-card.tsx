@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { formatDate } from "@/lib/utils";
+import { formatDate, formatClassName } from "@/lib/utils";
 import { BookOpen, Calendar, User } from "lucide-react";
 
 interface CourseCardProps {
@@ -26,7 +26,9 @@ export function CourseCard({ course }: CourseCardProps) {
       <Card className="h-full transition-colors hover:bg-accent/50">
         <CardHeader>
           <CardTitle className="line-clamp-2">{course.title}</CardTitle>
-          <CardDescription>{course.className}</CardDescription>
+          {formatClassName(course.className) && (
+            <CardDescription>{formatClassName(course.className)}</CardDescription>
+          )}
         </CardHeader>
         <CardContent>
           <p className="line-clamp-2 text-sm text-muted-foreground">{course.description}</p>

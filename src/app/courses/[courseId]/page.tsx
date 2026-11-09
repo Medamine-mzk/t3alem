@@ -6,7 +6,7 @@ import { useSession } from "next-auth/react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { formatDate } from "@/lib/utils";
+import { formatDate, formatClassName } from "@/lib/utils";
 import {
   ArrowLeft,
   Calendar,
@@ -251,7 +251,9 @@ export default function CourseDetailPage({ params }: CourseDetailPageProps) {
                 <Calendar className="h-4 w-4" />
                 {formatDate(course.createdAt)}
               </span>
-              <Badge variant="secondary">{course.className}</Badge>
+              {formatClassName(course.className) && (
+                <Badge variant="secondary">{formatClassName(course.className)}</Badge>
+              )}
               <span>{course.sessions?.length || 0} sessions</span>
             </div>
           </div>

@@ -5,7 +5,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Button } from "@/components/ui/button";
 import { BookOpen, Plus } from "lucide-react";
 import Link from "next/link";
-import { formatDate } from "@/lib/utils";
+import { formatDate, formatClassName } from "@/lib/utils";
 
 export const dynamic = "force-dynamic";
 
@@ -56,7 +56,9 @@ export default async function MyCoursesPage() {
               <Card className="h-full transition-colors hover:bg-accent/50">
                 <CardHeader>
                   <CardTitle className="line-clamp-2">{course.title}</CardTitle>
-                  <CardDescription>{course.className}</CardDescription>
+                  {formatClassName(course.className) && (
+                    <CardDescription>{formatClassName(course.className)}</CardDescription>
+                  )}
                 </CardHeader>
                 <CardContent>
                   <p className="line-clamp-2 text-sm text-muted-foreground">

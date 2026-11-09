@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { formatDate } from "@/lib/utils";
+import { formatDate, formatClassName } from "@/lib/utils";
 import { BookOpen, Eye, MessageSquare, Trash2 } from "lucide-react";
 import Link from "next/link";
 import { Pagination } from "@/components/shared/pagination";
@@ -121,7 +121,8 @@ export default function AdminCoursesPage({ searchParams }: AdminCoursesPageProps
                         </Link>
                       </div>
                       <div className="mt-1 text-sm text-muted-foreground">
-                        {course.teacher.firstName} {course.teacher.lastName} · {course.className}
+                        {course.teacher.firstName} {course.teacher.lastName}
+                        {formatClassName(course.className) ? ` · ${formatClassName(course.className)}` : ""}
                       </div>
                       <div className="mt-1 flex items-center gap-4 text-xs text-muted-foreground">
                         <span className="flex items-center gap-1">
