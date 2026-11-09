@@ -23,6 +23,7 @@ import {
   CheckCircle,
   Circle,
   GripVertical,
+  EyeOff,
 } from "lucide-react";
 import Link from "next/link";
 import { EditModeToggle } from "@/components/courses/edit-mode-toggle";
@@ -126,6 +127,27 @@ export default function SessionDetailPage({ params }: SessionDetailPageProps) {
       }
     } catch {
       toast.error("Failed to update content block");
+    }
+  }
+
+  async function handleToggleVisibility(blockId: string, isVisible: boolean) {
+    try {
+      const res = await fetch(`/api/sessions/${sessionId}/content/${blockId}`, {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ isVisible }),
+      });
+      if (res.ok) {
+        setSessionData({
+          ...sessionData,
+          contentBlocks: sessionData.contentBlocks.map((b: any) =>
+            b.id === blockId ? { ...b, isVisible } : b
+          ),
+        });
+        toast.success(isVisible ? "Section visible" : "Section hidden");
+      }
+    } catch {
+      toast.error("Failed to update visibility");
     }
   }
 
@@ -316,19 +338,38 @@ export default function SessionDetailPage({ params }: SessionDetailPageProps) {
                   items={sessionData.contentBlocks}
                   onReorder={handleReorderBlocks}
                   renderItem={(block: any, index: number) => (
-                    <div key={block.id} data-content-block className="rounded-lg border bg-card p-4">
+                    <div key={block.id} data-content-block className={`rounded-lg border bg-card p-4 ${block.isVisible === false ? "opacity-50" : ""}`}>
                       <div className="flex items-center justify-between mb-3">
                         <div className="flex items-center gap-2">
                           {getBlockIcon(block.type)}
                           <span className="text-sm font-medium uppercase">{block.type}</span>
+                          {block.isVisible === false && (
+                            <span className="rounded-full bg-muted px-2 py-0.5 text-xs font-medium text-muted-foreground">
+                              Hidden
+                            </span>
+                          )}
                         </div>
-                        <Button
-                          variant="ghost"
-                          size="icon"
-                          onClick={() => handleDeleteContentBlock(block.id)}
-                        >
-                          <Trash2 className="h-4 w-4 text-destructive" />
-                        </Button>
+                        <div className="flex items-center gap-1">
+                          <Button
+                            variant="ghost"
+                            size="icon"
+                            onClick={() => handleToggleVisibility(block.id, block.isVisible === false)}
+                            title={block.isVisible === false ? "Show section" : "Hide section"}
+                          >
+                            {block.isVisible === false ? (
+                              <EyeOff className="h-4 w-4 text-muted-foreground" />
+                            ) : (
+                              <Eye className="h-4 w-4" />
+                            )}
+                          </Button>
+                          <Button
+                            variant="ghost"
+                            size="icon"
+                            onClick={() => handleDeleteContentBlock(block.id)}
+                          >
+                            <Trash2 className="h-4 w-4 text-destructive" />
+                          </Button>
+                        </div>
                       </div>
                       {block.type === "TEXT" ? (
                         <RichTextEditor
@@ -358,15 +399,26 @@ export default function SessionDetailPage({ params }: SessionDetailPageProps) {
                 />
               ) : (
                 <div className="space-y-4">
-                  {sessionData.contentBlocks.map((block: any) => (
-                    <div key={block.id} data-content-block className="rounded-lg border bg-card p-4">
-                      <div className="flex items-center gap-2 mb-2">
-                        {getBlockIcon(block.type)}
-                        <span className="text-xs font-medium uppercase text-muted-foreground">{block.type}</span>
+                  {sessionData.contentBlocks
+                    .filter((block: any) => block.isVisible !== false || canEdit)
+                    .map((block: any) => (
+                      <div
+                        key={block.id}
+                        data-content-block
+                        className={`rounded-lg border bg-card p-4 ${block.isVisible === false ? "opacity-50" : ""}`}
+                      >
+                        <div className="flex items-center gap-2 mb-2">
+                          {getBlockIcon(block.type)}
+                          <span className="text-xs font-medium uppercase text-muted-foreground">{block.type}</span>
+                          {block.isVisible === false && (
+                            <span className="rounded-full bg-muted px-2 py-0.5 text-xs font-medium text-muted-foreground">
+                              Hidden
+                            </span>
+                          )}
+                        </div>
+                        <ContentBlockRenderer block={block} theme={theme} />
                       </div>
-                      <ContentBlockRenderer block={block} theme={theme} />
-                    </div>
-                  ))}
+                    ))}
                 </div>
               )}
 

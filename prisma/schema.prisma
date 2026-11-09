@@ -76,6 +76,7 @@ model ContentBlock {
   type      String
   content   String
   position  Int      @default(0)
+  isVisible Boolean  @default(true)
   createdAt DateTime @default(now())
 
   @@index([sessionId])

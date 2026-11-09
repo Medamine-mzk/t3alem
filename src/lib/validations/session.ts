@@ -45,6 +45,7 @@ export const contentBlockUpdateSchema = z.object({
     .max(10000, "Content must be at most 10000 characters")
     .optional(),
   position: z.coerce.number().int().min(0).optional(),
+  isVisible: z.boolean().optional(),
 });
 
 export type SessionCreateInput = z.infer<typeof sessionCreateSchema>;
